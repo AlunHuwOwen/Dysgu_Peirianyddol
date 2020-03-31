@@ -1,6 +1,6 @@
 \chapter{Atchweliad Logistaidd}\label{cha:Atchweliad_logistaidd}
 \section{Cefndir}
-Defnyddiwn atchweliad logistaidd i fodelu'r tebygolrwydd o ddosbarthu gwrthrych i mewn i setiau deuaidd. Mae'n ddull o ddysgu dan oruchwyliaeth sy'n cael ei ddefnyddio yn aml yn academ\"{i}au a diwydiannau. Gall y atchweliad cael ei ddefnyddio i weld os mae rhywun yn curo/colli, s\^{a}l/iachus neu basio/methu mewn rhyw sefyllfa benodol. Gall y syniad yma cael ei ymestyn, gall wahanol atchweliadau logistaidd cael ei rhoi yn baralel i geisio rhoi'r tebygolrwydd o liw llygaid rhyw berson er enghraifft. Mewn termau mwy cyffredinol, gall ymestyn atchweliadau logistaidd i weithio ar setiau o labeli di-deuaidd. O hyn ymlaen fyddem yn edrych ar un atchweliad ar un waith, felly fydd y setiau o labeli yn ddeuaidd. % "un atchweliad ar un waith" - dyw hwn ddim yn neud synwyr.
+Defnyddiwn atchweliad logistaidd i fodelu'r tebygolrwydd o ddosbarthu gwrthrych i mewn i setiau deuaidd. Mae'n ddull o ddysgu dan oruchwyliaeth sy'n cael ei ddefnyddio yn aml yn academ\"{i}au a diwydiannau. Gall y atchweliad cael ei ddefnyddio i weld os mae rhywun yn curo/colli, s\^{a}l/iachus neu basio/methu mewn rhyw sefyllfa benodol. Gall y syniad yma cael ei ymestyn, gall wahanol atchweliadau logistaidd cael ei rhoi yn baralel i geisio rhoi'r tebygolrwydd o liw llygaid rhyw berson er enghraifft. Mewn termau mwy cyffredinol, gall ymestyn atchweliadau logistaidd i weithio ar setiau o labeli di-deuaidd. O hyn ymlaen fyddem yn edrych ar atchweliadau gyda labeli deuaidd. 
 
 Mae'n hawdd delweddu sut fydd atchweliad logistaidd gydag un newidyn annibynnol. Gwelwn fod y model yn edrych fel y graff yn ddarlun~\ref{fig:Enghraifft_o_atchweliad_logistaidd} pan hyn yw'r sefyllfa.
 
@@ -42,13 +42,15 @@ Data profi: $\mathbf{x}_j$ a $y_j$ ar gyfer $j \in \{ k+1,\dots,n \}$
 
 Nawr wnawn edrych ar y ffwythiant logistaidd, lle mae $z \in (-\infty,\infty)$:
 
-$$ f(z) = \frac{1}{1+e^{-z}} $$ 
+\begin{equation}\label{eqn:gwrthdrologit}	
+	f(z) = \frac{1}{1+e^{-z}} 
+\end{equation}
 
-Mae'r model logistaidd yn cymryd y ffurf logit, mae hyn yn cael ei ddangos yn hafaliad~\ref{eqn:logit}.
+Mae'r model logistaidd yn cymryd y gwrthdro o ffurf logit, mae hyn yn cael ei ddangos yn hafaliad~\ref{eqn:gwrthrologit}.
 
-\begin{equation}\label{eqn:logit} 
+\begin{equation}\label{eqn:cyfernodau} 
     z = \alpha + \beta_{1}X_{1} + \dots + \beta_{m}X_{m} 
-\end{equation} % sain credu taw'r ffurf logit yw hon, nage logit yw'r un nesaf?
+\end{equation} 
 
 Felly mae hafaliad~~\ref{eqn:modellog} yn dangos y model cyfan.
 
@@ -58,9 +60,13 @@ Felly mae hafaliad~~\ref{eqn:modellog} yn dangos y model cyfan.
 
 \subsection{Yr Algorithm}
 \cite{Logistic-regression}
-Fydd $\alpha$ a $\mathbf{\beta}$ y paramedrau fyddem yn trio amcangyfrif o wybod $\mathbf{x}$ ac $y$ y data ymarfer. I amcangyfrif hyn wnawn ddefnyddio'r dull amcangyfrif tebygoliaeth fwyaf. Cymerwn $\hat{\mathbf{z}}$ i fod y fector o baramedrau fyddem yn amcangyfrif. Yna mae gennym y amcangyfrif tebygoliaeth ganlynol a fyddem yn trio cael y gwerth agosaf i $1$:
+Fydd $\alpha$ a $\mathbf{\beta}$ y paramedrau fyddem yn trio amcangyfrif o wybod $\mathbf{x}$ ac $y$ y data ymarfer. I amcangyfrif hyn wnawn ddefnyddio'r dull amcangyfrif tebygoliaeth fwyaf. Cymerwn $\hat{\mathbf{z}}$ i fod y fector o baramedrau fyddem yn amcangyfrif. Yna mae gennym y amcangyfrif tebygoliaeth ganlynol a fyddem yn trio cael y gwerth agosaf i $1$. 
 
-$$ L(\hat{\mathbf{z}}) = \prod_{s \in y_{i}=1} p(x_i) \prod_{s \in y_{i}=0} (1 - p(x_i))$$ % mwy o esboniad o beth yw hwn! Pam mae L(\hat{\mathbf{z}}) angen fod yn agos i 1? Beth yw hwnna'n golygu? Beth arall gall L fod? etc.
+\begin{equation}\label{eqn:amcangyfrif}
+L(\hat{\mathbf{z}}) = \prod_{s \in y_{i}=1} p(x_i) \prod_{s \in y_{i}=0} (1 - p(x_i))
+\end{equation}
+
+Mae Hafaliad~\ref{eqn:amcangyfrif} yn trio uchafsymio y lluoswm o phob tebygolrwydd ag oedd yn edrych ar labeli y data ymarfer. Gan fod rhai labeli am fod yn $0$ a rydym yn lluosi y rhifau yma, mae rhaid newid y dechneg ag lluoswm y tebygolrwydd $(1 - p(x_i))$ i phob $i$ sydd gyda'r label $0$ i alluogi trio darganfod y paramedrau sy'n creu yr uchafswm (yn ein sefyllfa ni fydd yr uchafswm y rhif agosaf tuag at $1$). 
 
 Sydd yn gallu cael ei symleiddio i:
 
@@ -84,17 +90,23 @@ $$ \hat{\mathbf{z}} = \arg \max_{\mathbf{z}} \log L(\mathbf{z})  $$
 
 Does yna ddim ffordd bendant o ddatrys yr hafaliad uchod, fydd angen defnyddio algorithmau fel swm lleiaf sgwariau wedi eu hail bwyso drwy iteriadau neu ddisgyniad fwyaf fel gwelwn yn y algorithmau yn R ac Python yn y drefn honno. 
 
-(ANGEN ADIO DARN AM Y DAU ALGORITHM AC YCHWANEGU REFERENCE AR EI CYFER)
+Mae'r dull disgyniad fwyaf yn algorithm optimeiddiaeth trefn cyntaf i darganfod isafbwynt lleol o ffwythiant gall ei ddifferu. Mae'r algorithm yn cymryd camau yn gyfraneddol ir graddiant yn y pwynt yno. Fydd yr algorithm am phob cam yn edrych yn debyg i hafaliad~\ref{eqn:disgyniadfwyaf} gyda $a$ yn rhyw bwynt a $f$ yn y ffwythiant.
+
+\begin{equation}\label{eqn:disgyniadfwyaf}
+  a_{n+1} = a_{n} - \nabla f
+\end{equation}
+
+Ar gyfer y swm lleiaf o sgwariau wedi eu hail bwyso drwy iteriadau, mae'r algorithm yn cydgyfeirio tuag at y pwysau optimaidd ar gyfer y cyfernodau yn Fformiwla~\ref{eqn:cyfernodau}. Mae angen ail bwyso oherwydd mae'r amrywiant yn newid trwy gydol y model. Mae lle mae'r amrywiant ar ei fwyaf yn y model am dynodi lle fydd gromlin ein model.
 
 Unwaith mae gennym amcangyfrif o'r paramedrau, mae angen darganfod pa mor dda yw ein model logistaidd. I wneud hwn byddwn yn rhoi ein data profi $x_j$ i mewn i'r model, a cynharu'r allbwn gyda $y_j$. Fel allbwn cawn tebygolrywdd, rhif rhwng $0$ ac $1$, yna wnawn talgrynnu'r allbwn i cael label. Wedyn mae gennym ein rhagfynegiad am label pob person, yna gallwn ddarganfod cyfradd llwyddiant ein model gan:
 
 $$ 1 - \sum_{j = k+1}^{n} \frac{(P(\mathbf{x}_j) - y_j)^{2}}{n - k} $$
 
-% ychwanegu brawddeg ar sut i dehongli'r cyfradd llwyddiant.
+Mae'r swm yma yn cymryd y canran o camgymeriadau rhwng y data ymarfer a'r data profi ac yna yn ei tynnu i ffwrdd o $1$, darganwyd hyn y cyfradd llwyddiant. I darganfod y canran o camgymeriadau fyddwn yn tynnu y data profi oddiwrth y data ymarfer, ac yno yn sgwario yr matrics canlyniadol. Fydd y gweithrediadau yma yn gweithio yn \^{o}l elfen. Unwaith fydd y matrics wedi'i sgwario fydd pob elfen sy'n dangos $1$ yn dangos camgymeriad ac felly fydd $0$ yn dangos rhagfynegiad cywir. Yna fydd y matrics yn cael ei symio ac fydd y cyfanswm yn cael ei rhannu gan y nifer o elfennau.
 
 \section{Tiwtorial yn R}
 
-Yn yr enghraifft hon, fyddwn yn edrych ar ddata ar 1000 o bobol, fydd y data yn cynnwys gwybodaeth ar uchder, pwysau, maint gwasg, oed, rhyw ag oes gan y person diabetes. Mae'n bosib lawrlwytho'r data oddi yma: (INSERT LINK). 
+Yn yr enghraifft hon, fyddwn yn edrych ar ddata ar 1000 o bobol, fydd y data yn cynnwys gwybodaeth ar uchder, pwysau, maint gwasg, oed, rhyw ag oes gan y person diabetes. Mae'n bosib lawrlwytho'r data oddi yma: \url{https://dysgupeirianyddol.github.io/}
 
 Ar gyfer gwneud atchweliad logistaidd, mae angen y pecyn \mintinline{R}{stats} a wnawn ei lawrlwytho a'i gosod gan redeg y canlynol:
 
@@ -158,7 +170,7 @@ Felly mae'r model sydd gennym, i dri lle degl, yn edrych fel:
 
 $$ P(\mathbf{x}) = \frac{1}{1 + e^{-22.858 + 0.254 x_{\text{Uchder}} - 0.215 x_{\text{Pwysau}} - 0.057 x_{\text{Oed}} + 8.074 x_{\text{Rhyw}} + 0.003 x_{\text{MaintGwasg}}}} $$
 
-Gan fod ein model wedi'i chwblhau, gallwn weld sut mae'n perfformio yn penderfynu os oes gan bobl y set profi diabetes ta ddim. Geith hyn ei wneud yn defnyddio'r ffwythiant \mintinline{R}{predict} a dewis yr opsiwn \mintinline{R}{type} fel "response" i gael allbwn o debygolrwydd. Heb wneud hyn, fydd yr allbwn yn defnyddio'r ffurf logit fel gwelwn yn hafaliad~\ref{eqn:logit} % eto yfe logit yw hon?
+Gan fod ein model wedi'i chwblhau, gallwn weld sut mae'n perfformio yn penderfynu os oes gan bobl y set profi diabetes ta ddim. Geith hyn ei wneud yn defnyddio'r ffwythiant \mintinline{R}{predict} a dewis yr opsiwn \mintinline{R}{type} fel "response" i gael allbwn o debygolrwydd. Heb wneud hyn, fydd yr allbwn yn cyfrifo $z$ o hafaliad~\ref{eqn:cyfernodau}. 
 
 \begin{minted}[bgcolor=green!7]{r}
 > canlyniad <- predict(object = atchweliad, newdata = profi, type = "response")

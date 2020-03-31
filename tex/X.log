@@ -1,6 +1,6 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2020.1.31)  24 MAR 2020 14:09
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2020.1.31)  29 MAR 2020 20:38
 entering extended mode
-**main.tex
+**main,tex
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\X.tex"
 LaTeX2e <2019-10-01> patch level 3
 
@@ -15,7 +15,7 @@ and deduce the truth by order and method.
  ) 
 Here is how much of TeX's memory you used:
  6 strings out of 427232
- 81 string characters out of 3141650
+ 85 string characters out of 3141650
  66177 words of memory out of 3000000
  4595 multiletter control sequences out of 15000+200000
  3640 words of font info for 14 fonts, out of 3000000 for 9000

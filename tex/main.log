@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2020.1.31)  24 MAR 2020 13:53
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2020.1.31)  31 MAR 2020 13:27
 entering extended mode
 **./main.tex
 (main.tex
@@ -1323,11 +1323,96 @@ Pennod 1.
 
 
 ]
-Overfull \hbox (610.41512pt too wide) in paragraph at lines 62--88
- [] 
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+[]\TU/lmr/m/n/10 Cwrs Cyfrifiadureg ar
  []
 
-[5] [6] [7]) [8]
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+\TU/lmr/m/n/10 gyfer Mathemateg yn
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 90--90
+[]\TU/lmr/m/n/10 Dr Vince Knight a Dr
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+[]\TU/lmr/m/n/10 Cyrsiau allgyrsiol yn
+ []
+
+
+Underfull \hbox (badness 7133) in paragraph at lines 90--90
+[]\TU/lmr/m/n/10 Adnoddau ar lawer o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+[]\TU/lmr/m/n/10 Cwrs cychwynol yn
+ []
+
+
+Underfull \hbox (badness 4713) in paragraph at lines 90--90
+[]\TU/lmr/m/n/10 Gwybodath ar gydran-
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 90--90
+\TU/lmr/m/n/10 ysgol Bangor a Cymen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+[]\TU/lmr/m/n/10 Myfyrwyr, datblygwyr
+ []
+
+
+Underfull \hbox (badness 5578) in paragraph at lines 90--90
+\TU/lmr/m/n/10 neu academyddion heb
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 90--90
+[]\TU/lmr/m/n/10 Enghreifftiau a thiwtor-
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 90--90
+\TU/lmr/m/n/10 ysgol Bangor a Cymen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+[]\TU/lmr/m/n/10 Myfyrwyr, datblygwyr
+ []
+
+
+Underfull \hbox (badness 5578) in paragraph at lines 90--90
+\TU/lmr/m/n/10 neu academyddion heb
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+[]\TU/lmr/m/n/10 Dr Geraint Palmer a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
+[]\TU/lmr/m/n/10 Amrhyw o adnoddau
+ []
+
+
+Underfull \hbox (badness 3386) in paragraph at lines 90--90
+\TU/lmr/m/n/10 Mathemategol yn dilyn
+ []
+
+[5] [6] [7]
+
+LaTeX Warning: Citation `gwasanaethiaith' on page 8 undefined on input line 134
+.
+
+[8]) [9]
 \openout2 = `chapters/Clystyru_k_modd.aux'.
 
  (chapters/Clystyru_k_modd.tex
@@ -1352,7 +1437,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 25.
 
-[9
+[10
 
 
 
@@ -1365,7 +1450,7 @@ File: ../img/Cam3.jpeg Graphic file (type bmp)
 <../img/Cam3.jpeg>
 File: ../img/Convergence4.jpeg Graphic file (type bmp)
 <../img/Convergence4.jpeg>
- [10]
+ [11]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 88.
@@ -1374,12 +1459,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 88.
 
-[11]
+[12]
 File: ../img/Dull_Penelin.jpeg Graphic file (type bmp)
 <../img/Dull_Penelin.jpeg>
 File: ../img/Dendrogram.jpeg Graphic file (type bmp)
 <../img/Dendrogram.jpeg>
- [12]
+ [13]
 \openout4 = `main.pyg'.
 
  (_minted-main/default-pyg-prefix.pygstyle)
@@ -1416,7 +1501,7 @@ pygtex)
 pygtex)
 File: ../img/Data_yn_R.jpg Graphic file (type bmp)
 <../img/Data_yn_R.jpg>
- [13]
+ [14]
 \openout3 = `main.pyg'.
 
 
@@ -1433,7 +1518,7 @@ File: ../img/ScatterplotR.jpeg Graphic file (type bmp)
 
 
 (_minted-main/5E2A87C1BCE635CBA05DFE68FCF7D79F19F985447EC54E8B82C17FA4B4D93AE9.
-pygtex) [14]
+pygtex) [15]
 \openout3 = `main.pyg'.
 
 
@@ -1458,7 +1543,7 @@ File: ../img/Data3_yn_R.jpg Graphic file (type bmp)
 pygtex)
 File: ../img/3clwstwrR.jpeg Graphic file (type bmp)
 <../img/3clwstwrR.jpeg>
- [15]
+ [16]
 \openout3 = `main.pyg'.
 
 
@@ -1473,7 +1558,7 @@ File: ../img/Data6_yn_R.jpg Graphic file (type bmp)
 pygtex)
 File: ../img/6clwstwrR.jpeg Graphic file (type bmp)
 <../img/6clwstwrR.jpeg>
- [16]
+ [17]
 \openout4 = `main.pyg'.
 
 
@@ -1513,7 +1598,7 @@ File: ../img/tabl1.jpg Graphic file (type bmp)
 <../img/tabl1.jpg>
 \openout3 = `main.pyg'.
 
- [17]
+ [18]
 (_minted-main/E9894389E3CC4517928EDB60AA00F7534FBEEAFC55D0059826E664B9BBCF3721.
 pygtex)
 File: ../img/Scatterpython.jpeg Graphic file (type bmp)
@@ -1530,7 +1615,7 @@ pygtex)
 pygtex)
 File: ../img/tabl2.jpg Graphic file (type bmp)
 <../img/tabl2.jpg>
- [18]
+ [19]
 \openout3 = `main.pyg'.
 
 
@@ -1550,7 +1635,7 @@ pygtex)
 pygtex)
 File: ../img/tabl3.jpg Graphic file (type bmp)
 <../img/tabl3.jpg>
- [19]
+ [20]
 \openout3 = `main.pyg'.
 
 
@@ -1558,7 +1643,7 @@ File: ../img/tabl3.jpg Graphic file (type bmp)
 pygtex)
 File: ../img/6clystwrpython.jpeg Graphic file (type bmp)
 <../img/6clystwrpython.jpeg>
-) [20]
+) [21]
 \openout2 = `chapters/Atchweliad_logistaidd.aux'.
 
  (chapters/Atchweliad_logistaidd.tex
@@ -1567,19 +1652,19 @@ File: ../img/Atchweliad_logistaidd.jpeg Graphic file (type bmp)
 <../img/Atchweliad_logistaidd.jpeg>
 File: ../img/atchweliad_logistaidd_gyda_pwyntiau.jpeg Graphic file (type bmp)
 <../img/atchweliad_logistaidd_gyda_pwyntiau.jpeg>
-[21
+[22
 
 
 
 ]
 File: ../img/cymharu_llinol.jpeg Graphic file (type bmp)
 <../img/cymharu_llinol.jpeg>
- [22] [23]
-Overfull \hbox (5.45183pt too wide) in paragraph at lines 87--88
-[]\TU/lmr/m/n/10 (ANGEN ADIO DARN AM Y DAU ALGORITHM AC YCHWANEGU REFERENCE AR 
-EI CYFER) 
- []
+ [23]
 
+LaTeX Warning: Reference `eqn:gwrthrologit' on page 24 undefined on input line 
+49.
+
+[24] [25]
 \openout4 = `main.pyg'.
 
 
@@ -1607,7 +1692,6 @@ pygtex)
 pygtex)
 File: ../img/data_diabetes_r.jpg Graphic file (type bmp)
 <../img/data_diabetes_r.jpg>
- [24]
 \openout3 = `main.pyg'.
 
 
@@ -1617,7 +1701,7 @@ pygtex)
 
 
 (_minted-main/C052010A8BC60C4CBF3239F8DAAFCC6CD1B441A9AB0E232E9D4562FAA45AEAC6.
-pygtex)
+pygtex) [26]
 \openout4 = `main.pyg'.
 
 
@@ -1642,7 +1726,7 @@ pygtex)
 
 
 (_minted-main/75C25DF85BFFB964A98B6362E0A8AC63D1B441A9AB0E232E9D4562FAA45AEAC6.
-pygtex) [25]
+pygtex)
 \openout4 = `main.pyg'.
 
 
@@ -1662,7 +1746,7 @@ pygtex)
 
 
 (_minted-main/E0C09D509B6D372EEC9A29139917182BD1B441A9AB0E232E9D4562FAA45AEAC6.
-pygtex)
+pygtex) [27]
 \openout3 = `main.pyg'.
 
 
@@ -1672,7 +1756,7 @@ pygtex)
 
 
 (_minted-main/4BC45CC43335044DBFE5E8893A528E5ED1B441A9AB0E232E9D4562FAA45AEAC6.
-pygtex) [26]
+pygtex)
 \openout4 = `main.pyg'.
 
 
@@ -1690,7 +1774,7 @@ pygtex)
 pygtex)
 \openout3 = `main.pyg'.
 
-
+ [28]
 (_minted-main/3D2CC16144463F018A0D398F5DF1C0F54FBEEAFC55D0059826E664B9BBCF3721.
 pygtex)
 \openout3 = `main.pyg'.
@@ -1704,7 +1788,7 @@ File: ../img/data_diabetes_python.jpg Graphic file (type bmp)
 
 
 (_minted-main/1B02BC262D5B1652BB5DA55EE4D4A9914FBEEAFC55D0059826E664B9BBCF3721.
-pygtex) [27]
+pygtex)
 \openout3 = `main.pyg'.
 
 
@@ -1732,7 +1816,7 @@ pygtex)
 pygtex)
 \openout3 = `main.pyg'.
 
-
+ [29]
 (_minted-main/495D98D03DA5A3DBE9F083AE31AA77B94FBEEAFC55D0059826E664B9BBCF3721.
 pygtex)
 \openout3 = `main.pyg'.
@@ -1742,45 +1826,52 @@ pygtex)
 pygtex)
 \openout3 = `main.pyg'.
 
- [28]
+
 (_minted-main/14BF57F0F8F2DA020B3DBCBB973A7EA64FBEEAFC55D0059826E664B9BBCF3721.
 pygtex)
 \openout3 = `main.pyg'.
 
 
 (_minted-main/78C2AA0B2FFA3C535AB82B215F0ABEC54FBEEAFC55D0059826E664B9BBCF3721.
-pygtex)) [29]
+pygtex)) [30]
 \openout2 = `chapters/Termau.aux'.
 
  (chapters/Termau.tex
 Pennod 4.
-) [30
+) [31
 
 
 
 ] (main.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 24--27
+Underfull \hbox (badness 10000) in paragraph at lines 9--13
+[]\TU/lmr/m/n/10 Addysg cymraeg yn prydain.  []$[][][][][] [] [] [] [][][] [] [
+][][][][][][][][][][][][][][][][][] [] [][] [] [][][][][][][][][] [] [][][][][]
+[][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--38
 []\TU/lmr/m/n/10 Adnoddau technolegau iaith.  []$[][][][] [] [] [] [][][][][][]
 [][][] [] [][][][][] [] [][][][][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 50--54
+Underfull \hbox (badness 1533) in paragraph at lines 66--70
 []\TU/lmr/m/n/10 Technological action plan.  []$[][][][][] [] [] [] [][][] [] [
 ][][][][] [] [][][][][] [] [][][][][][][] [] [][][][][] [] [][][][][][][][][][]
 [][] [] [][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--60
+Underfull \hbox (badness 10000) in paragraph at lines 77--81
 []\TU/lmr/m/n/10 Videos ar sut i rhaglennu yn python.  []$[][][][][] [] [] [] [
 ][][] [] [][][][][][][] [] [][][] [] [][][][][][][][] [] [][][][] []
  []
 
-[31
+[32
 
 
-]) [32]
+]) [33]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
  (main.aux (frontcover.aux) (diolchadau.aux) (chapters/Cyflwyniad.aux) (chapter
@@ -1790,16 +1881,20 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 47.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: EEBE2052FCE663FB2983F6B16AE26460;1742.
+
+
+LaTeX Warning: There were undefined references.
+
 runsystem(del main.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 38590 strings out of 427232
- 741702 string characters out of 3141650
- 919075 words of memory out of 3000000
- 42339 multiletter control sequences out of 15000+200000
+ 38598 strings out of 427232
+ 741825 string characters out of 3141650
+ 921996 words of memory out of 3000000
+ 42347 multiletter control sequences out of 15000+200000
  548444 words of font info for 102 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 60i,8n,67p,840b,2146s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,12n,67p,1256b,2146s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (33 pages).
+Output written on main.pdf (34 pages).

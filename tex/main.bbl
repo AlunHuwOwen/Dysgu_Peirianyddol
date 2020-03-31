@@ -5,6 +5,17 @@
 \newblock \url{https://www.kaggle.com/sudhirnl7/data-science-survey-2018}.
 \newblock Accessed: 2020-03-24.
 
+\bibitem{prifysgolion}
+Addysg cymraeg yn prydain.
+\newblock
+  \url{https://www.mercator-research.eu/fileadmin/mercator/documents/regional_dossiers/welsh_in_the_uk_2nd.pdf}.
+\newblock Accessed: 2020-03-27.
+
+\bibitem{coursera}
+Adnoddau addysg uwch ar coursera.
+\newblock \url{https://www.coursera.org/}.
+\newblock Accessed: 2020-03-27.
+
 \bibitem{codeclub}
 Adnoddau code club.
 \newblock \url{https://projects.raspberrypi.org/cy-GB/codeclub}.
@@ -30,6 +41,11 @@ App botio.
 \newblock \url{https://apps.apple.com/us/app/botio/id1296278646?ls=1}.
 \newblock Accessed: 2020-03-14.
 
+\bibitem{canran-github}
+Canran o pull requests ar github yn wahanol ieithoedd rhaglennu.
+\newblock \url{https://madnight.github.io/githut/#/pull_requests/2019/4}.
+\newblock Accessed: 2020-03-26.
+
 \bibitem{Cyfrifiadureg-maths}
 Cyfrifiadureg ar gyfer mathemateg.
 \newblock \url{https://vknight.org/cfm/cy/}.
@@ -51,6 +67,11 @@ Technological action plan.
 \newblock
   \url{https://gov.wales/sites/default/files/publications/2018-12/welsh-language-technology-and-digital-media-action-plan.pdf}.
 \newblock Accessed: 2020-03-24.
+
+\bibitem{sql}
+Tiwtorial yn sql.
+\newblock \url{https://plsql-tutorial.com/cy/index.htm}.
+\newblock Accessed: 2020-03-26.
 
 \bibitem{youtube}
 Videos ar sut i rhaglennu yn python.

@@ -57,9 +57,10 @@ Mae dysgu dan oruchwyliaeth rannol yn cymryd priodweddau o'r ddwy ffordd o ddysg
 \section{Pam}
 
 \subsection{Be sydd yna yn barod?}
-
+\begin{table}[htbt!]
 \begin{center}
-\begin{tabular}{ | c | c | c | c | c | }
+\rotatebox{90}{%
+\begin{tabular}{ | p{0.24\textwidth} | p{0.24\textwidth} | p{0.24\textwidth} | p{0.24\textwidth} | p{0.05\textwidth} | }
 \hline
 Adnodd & Awdur & Fformat & Cynulleidfa Darged & Linc\\
 \hline
@@ -79,13 +80,16 @@ Enghreifftiau a thiwtorialau o cynnyrch technolegau iaith  &  Uned technoleg iai
 \hline
 Tiwtorialau Python & Dr Geraint Palmer a Stephanie Jones & Fideos ar Youtube & Dechreuwyr yn rhaglennu gyda Python & \cite{youtube} \\
 \hline
+Tiwtorialau SQL & pl/sql tiwtorial & Wefan gyda tiwtorialau & Dechreuwyr yn SQL & \cite{sql} \\
 \hline
 Nodiadau agored am algebra llinol & Dr Alun Morris & Nodiadau (pdf) & Myfyrwyr prifysgol & \cite{Algebra-llinol}\\
 \hline
 Amrhyw o adnoddau Mathemategol yn dilyn cwricwla CBAC & Dr Gareth Evans & Wefan gyda linciau i wahanol fathau o adnoddau & Myfyrwyr rhwng $11$ a $18$ & \cite{mathemateg} \\
 \hline
-\end{tabular}
+\end{tabular}%
+}
 \end{center}
+\end{table}
 
 Mae'r tabl uchod wedi'i rhannu i adnoddau codio Cymraeg ag i adnoddau Mathemategol Cymraeg. Fel gwelwn yn ebrwydd, mae'r nifer o adnoddau codio yn llawer fwy nag rheina o adnoddau mathemategol. Mae'r adnodd \cite{Cyfrifiadureg-maths} yn cychwyn da i unrhyw un sydd gyda diddordeb o gychwyn codio yn Python, mae'n defnydd gwych ar gyfer myfyrwyr Mathemateg israddedig gan ei fod yn benodol i Fathemateg. Yn ogystal i'r cwrs yma mae gennym hefyd bach o gyflwyniad i Python ar y wefan sgiliau ymchwil ailhynhyrchiadwy \cite{python-sgiliauymchwil}. 
 
@@ -117,11 +121,19 @@ Gwelwn fod yna llawer o adnoddau ar gyfer y maes Mathemateg a Chyfrifiadureg i a
 
 Fydd y tiwtorialau i ddilyn yn cael ei ddangos drwy'r ieithoedd rhaglennu Python ag R, fydd hyn oherwydd nhw yw'r ddwy iaith fwyaf poblogaidd yn dysgu peirianyddol a gwyddor data yn \^{o}l arolwg Kaggle nol yn 2018 \cite{kagglesurvey}.
 
+Rheswm arall i ddysgu defnyddio'r ieithoedd rhaglennu yma yw bod nhw'n god agored sy'n wahanol i SQL er enghraifft. Gan ei fod nhw'n god agored poblogaidd, mae'n meddwl fod nhw'n cael ei diweddaru yn aml.
+
+Cafodd R ei greu gan ystadegwyr a gan fy mod yn creu tiwtorialau am ddysgu peirianyddol o'r ochr ystadegaeth, mae'n gymhelliad i ddefnyddio R. Ar gyfer dysgu Python, nol yn 2019 roedd Python yr iaith rhaglennu ail fwyaf i gael ``pull requests'' ar github \cite{canran-github}, mae github y gwesteiwr fwyaf o god ffynhonnell yn y byd.  
+
+Mae Python ag R yn cael ei ystyried i fod yn hawdd dysgu a deall yn gymhariaeth gydag ieithoedd rhaglennu eraill. Gwelwn hyn i fod yn wir yn y tiwtorialau i ddod. 
+
 \subsection{Pam Cymraeg?}
 
-I gychwyn, rwyf eisiau creu gwefan sy'n cynnwys tiwtorialau Cymraeg am algorithmau dysgu peirianyddol oherwydd y prinder ohonyn. Mae yna gymaint o adnoddau ar gyfer pob mathau o algorithmau drwy Saesneg ond yn Gymraeg, does yna ddim byd o'r fath! Fel gwelwn yn y tabl o adnoddau cynnar, does yna ddim llawer o adnoddau Cymraeg sy'n cynnwys deunydd datblygedig ar gael i'r cyhoedd. O fy mhrofiad personol i, rwyf yn gwybod fod prifysgolion yng Nghymru gydag adnoddau drwy'r cyfrwng Cymraeg ar gael i'w myfyrwyr nhw yn unig. Teimlaf fod hyn yn atal y parhad o addysg ar \^{o}l i fyfyrwyr gorffen eu hacadem\"{i}au gan fod adnoddau am ddim, ddim ar gael.  
+I gychwyn, rwyf eisiau creu gwefan sy'n cynnwys tiwtorialau Cymraeg am algorithmau dysgu peirianyddol oherwydd y prinder ohonyn. Mae yna gymaint o adnoddau ar gyfer pob mathau o algorithmau drwy Saesneg ond yn Gymraeg, does yna ddim byd o'r fath! Fel gwelwn yn y tabl o adnoddau cynnar, does yna ddim llawer o adnoddau Cymraeg sy'n cynnwys deunydd datblygedig ar gael i'r cyhoedd. O fy mhrofiad personol i, rwyf yn gwybod fod prifysgolion yng Nghymru gydag adnoddau drwy'r cyfrwng Cymraeg ar gael i'w myfyrwyr nhw yn unig. Teimlaf fod hyn yn atal y parhad o addysg ar \^{o}l i fyfyrwyr gorffen eu hacadem\"{i}au gan fod adnoddau am ddim, ddim ar gael.
 
-Rheswm arall i wneud yn Gymraeg yw cefnogi'r prosiect o'r llywodraeth a'r wlad i gael miliwn o siaradwyr Cymraeg erbyn 2050 \cite{cymraeg2050}. I gymhorthi'r prosiect yma cafodd cynllun ei rhoi allan yn hybu'r defnydd a cynnyrch o adnoddau technolegol Cymraeg \cite{cymraeg2050tech}, yn ogystal i greu adnoddau mae'r cynllun yn targedu y datblygiad o ddeallusrwydd artiffisial drwy edrych ar brosesu iaith naturiol yn bennaf. Mae creu'r adnodd yma yn Gymraeg yn bodloni'r ddwy adran o'r cynllun, gobeithio bydd yn hybu fwy i gychwyn creu adnoddau addysg uwch yn y maes yma. 
+Ers i'r iaith Gymraeg cael ei rhoi ar sylfaen gyfartal i Saesneg yn Gymru yn 1993 a chael gwasanaethau cyhoeddus yn ddwy iaith, mae yna wedi bod effaith domino i'r sector preifat. Mae prifysgolion yn gyrff preifat ac felly dydi ddim yn angenrheidiol iddyn nhw ddilyn \cite{prifysgolion}, ond yn 2011 cafodd y coleg Cymraeg ei sefydlu i ornest a hyn. Mae'r coleg yn hybu prifysgolion Cymru i newid i fod yn ddwyieithog drwy weithio yn bartneriaeth gyda nhw. Gwelwn y datblygiad yma yn fy amser i ym mhrifysgol. Drwy Haf 2019 mi oeddwn i yn ddarn o'r prosiect i gyfieithu nodiadau darlith modiwl algebra llinol a thebygolrwydd, dangosaf hyn fod yna waith yn cael ei wneud o fewn prifysgolion i addasu'r holl waith i gyfrwng y Gymraeg. Ond yn bolisi prifysgol Gaerdydd ar wasanaethau'r iaith Gymraeg, gwelwn fod nhw wedi'i esgusodi o orfod creu adnoddau Cymraeg ar gyfer unrhyw fath o adnoddau dysgu\cite{gwasanaethiaith}. Teimlaf fod yr Ysgol Fathemateg o'r prifysgol dim ond wedi cyfieithu digon o fodiwlau i alluogi cynnal y cwrs drwy ysgoloriaeth Coleg Cymraeg. os fyswn wedi bod eisiau gwneud fy nghwrs drwy'r cynllun yma fyswn heb gael yr ehangder o ddewis rwyf wedi cael drwy fy ngradd.
+
+Rheswm arall i wneud yn Gymraeg yw cefnogi'r prosiect o'r llywodraeth a'r wlad i gael miliwn o siaradwyr Cymraeg erbyn 2050 \cite{cymraeg2050}. I gymhorthi'r prosiect yma cafodd cynllun ei rhoi allan yn hybu'r defnydd a chynnyrch o adnoddau technolegol Cymraeg \cite{cymraeg2050tech}, yn ogystal i greu adnoddau mae'r cynllun yn targedu y datblygiad o ddeallusrwydd artiffisial drwy edrych ar brosesu iaith naturiol yn bennaf. Mae creu'r adnodd yma yn Gymraeg yn bodloni'r ddwy adran o'r cynllun, gobeithio bydd yn hybu fwy i gychwyn creu adnoddau addysg uwch yn y maes yma. Credaf fod rhyw fath o ateb cyflym i'r prinder fysa os fysa'r prifysgolion yn gadael ei adnoddau allan am ddim ar borth coleg Cymraeg, fel bod rhai prifysgolion yn yr Unol Daleithiau America lle mae yna ystorfa o gyrsiau gydag adnoddau agored ar wefan Coursera \cite{coursera}.
 
 \section{Strwythyr}
 

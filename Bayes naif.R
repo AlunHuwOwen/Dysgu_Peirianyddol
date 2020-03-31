@@ -1,0 +1,91 @@
+data <- data.frame("Tywydd" = c("Braf",
+                        "Braf",
+                        "Glawio",
+                        "Braf",
+                        "Gwbl Gymylog",
+                        "Cymylog",
+                        "Braf",
+                        "Glawio",
+                        "Gwbl Gymylog",
+                        "Braf",
+                        "Glawio",
+                        "Cymylog",
+                        "Gwbl Cymylog",
+                        "Gwbl Cymylog",
+                        "Braf"
+                        ),
+           "Tymheredd" = c("Poeth",
+                           "Poeth",
+                           "Arferol",
+                           "Arferol",
+                           "Poeth",
+                           "Oer",
+                           "Oer",
+                           "Arferol",
+                           "Arferol",
+                           "Oer",
+                           "Arferol",
+                           "Poeth",
+                           "Poeth",
+                           "Arferol",
+                           "Poeth"
+                           ),
+           "Lleithder" = c("Arferol",
+                           "Uchel",
+                           "Isel",
+                           "Isel",
+                           "Uchel",
+                           "Isel",
+                           "Isel",
+                           "Uchel",
+                           "Arferol",
+                           "Isel",
+                           "Arferol",
+                           "Uchel",
+                           "Uchel",
+                           "Uchel",
+                           "Uchel"
+                           ),
+           "Gwyntog" = c("Gwir",
+                         "Gwir",
+                         "Anghywir",
+                         "Gwir",
+                         "Anghywir",
+                         "Gwir",
+                         "Anghywir",
+                         "Anghywir",
+                         "Gwir",
+                         "Gwir",
+                         "Gwir",
+                         "Gwir",
+                         "Anghywir",
+                         "Anghywir",
+                         "Anghywir"
+                        ),
+           "Chwarae.Golff" = c("Do",
+                               "Do",
+                               "Naddo",
+                               "Do",
+                               "Do",
+                               "Naddo",
+                               "Do",
+                               "Naddo",
+                               "Do",
+                               "Naddo",
+                               "Naddo",
+                               "Do",
+                               "Do",
+                               "Do",
+                               "Do"
+                               )
+           )
+
+which(data[,"Chwarae.Golff"]=="Do")
+plyg <- c("Braf", "Poeth", "Uchel", "Anghywir")
+
+teb_plyg_chwarae <- ( sum(data[which(data[,"Chwarae.Golff"]=="Do"),"Tywydd"]=="Braf")/length(data[which(data[,"Chwarae.Golff"]=="Do"),"Tywydd"]) ) * ( sum(data[which(data[,"Chwarae.Golff"]=="Do"),"Tymheredd"]=="Poeth")/length(data[which(data[,"Chwarae.Golff"]=="Do"),"Tymheredd"]) ) * ( sum(data[which(data[,"Chwarae.Golff"]=="Do"),"Lleithder"]=="Uchel")/length(data[which(data[,"Chwarae.Golff"]=="Do"),"Lleithder"]) ) * ( sum(data[which(data[,"Chwarae.Golff"]=="Do"),"Gwyntog"]=="Gwir")/length(data[which(data[,"Chwarae.Golff"]=="Do"),"Gwyntog"]) ) * sum(data[,"Chwarae.Golff"]=="Do")/length(data[,"Chwarae.Golff"]) 
+
+teb_plyg_ddim <- ( sum(data[which(data[,"Chwarae.Golff"]=="Naddo"),"Tywydd"]=="Braf")/length(data[which(data[,"Chwarae.Golff"]=="Naddo"),"Tywydd"]) ) * ( sum(data[which(data[,"Chwarae.Golff"]=="Naddo"),"Tymheredd"]=="Poeth")+1/length(data[which(data[,"Chwarae.Golff"]=="Naddo"),"Tymheredd"]) ) * ( sum(data[which(data[,"Chwarae.Golff"]=="Naddo"),"Lleithder"]=="Uchel")/length(data[which(data[,"Chwarae.Golff"]=="Naddo"),"Lleithder"]) ) * ( sum(data[which(data[,"Chwarae.Golff"]=="Naddo"),"Gwyntog"]=="Gwir")/length(data[which(data[,"Chwarae.Golff"]=="Naddo"),"Gwyntog"]) ) * sum(data[,"Chwarae.Golff"]=="Naddo")/length(data[,"Chwarae.Golff"]) 
+
+teb_plyg_chwarae > teb_plyg_ddim 
+##TRUE - Dosbarthu i chwarae
