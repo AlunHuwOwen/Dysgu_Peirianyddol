@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}} tebygolrwydd\PYGZus{}amodol \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{k+kr}{function}\PYG{p}{(}plaid\PYG{p}{,} colofn\PYG{p}{,} gwerth\PYG{p}{,} data\PYG{p}{)}
+\PYG{o}{+} \PYG{p}{\PYGZob{}}
+\PYG{o}{+}    rhifiadur \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{k+kp}{sum}\PYG{p}{(}data\PYG{p}{[}\PYG{k+kp}{which}\PYG{p}{(}data\PYG{p}{[,}\PYG{l+s}{\PYGZdq{}Plaid.Wleidyddol\PYGZdq{}}\PYG{p}{]}\PYG{o}{==}plaid\PYG{p}{),}\PYG{k+kp}{names}\PYG{p}{(}data\PYG{p}{)[}colofn\PYG{p}{]]}\PYG{o}{==}gwerth\PYG{p}{)}\PYG{l+m}{+1}
+\PYG{o}{+}    enwadur \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{k+kp}{length}\PYG{p}{(}data\PYG{p}{[}\PYG{k+kp}{which}\PYG{p}{(}data\PYG{p}{[,}\PYG{l+s}{\PYGZdq{}Plaid.Wleidyddol\PYGZdq{}}\PYG{p}{]}\PYG{o}{==}plaid\PYG{p}{),}\PYG{k+kp}{names}\PYG{p}{(}data\PYG{p}{)[}colofn\PYG{p}{]])}
+\PYG{o}{+}               \PYG{o}{+}\PYG{k+kp}{length}\PYG{p}{(}\PYG{k+kp}{levels}\PYG{p}{(}etholiad\PYG{p}{[,}colofn\PYG{p}{])))}
+\PYG{o}{+}    rhifiadur\PYG{o}{/}enwadur
+\PYG{o}{+} \PYG{p}{\PYGZcb{}}
+\end{Verbatim}

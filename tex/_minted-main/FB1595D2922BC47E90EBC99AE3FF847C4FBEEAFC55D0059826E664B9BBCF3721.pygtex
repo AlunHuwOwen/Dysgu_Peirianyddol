@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}} \PYG{n}{data} \PYG{o}{=} \PYG{n}{pd}\PYG{o}{.}\PYG{n}{read\PYGZus{}csv}\PYG{p}{(}\PYG{l+s+s1}{\PYGZsq{}etholiad.csv\PYGZsq{}}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}\PYGZgt{}\PYGZgt{}} \PYG{n}{plyg} \PYG{o}{=} \PYG{p}{[}\PYG{l+s+s2}{\PYGZdq{}Lloegr\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}Benyw\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}Na\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}Ty Rhes\PYGZdq{}}\PYG{p}{,} \PYG{l+s+s2}{\PYGZdq{}Na\PYGZdq{}}\PYG{p}{]}
+\end{Verbatim}

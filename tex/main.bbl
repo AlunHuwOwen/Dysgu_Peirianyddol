@@ -1,7 +1,7 @@
 \begin{thebibliography}{10}
 
 \bibitem{kagglesurvey}
-2018 kaggle ml and ds survey.
+2018 arolwg kaggle ml and ds.
 \newblock \url{https://www.kaggle.com/sudhirnl7/data-science-survey-2018}.
 \newblock Accessed: 2020-03-24.
 
@@ -36,6 +36,12 @@ Adnoddau technolegau iaith.
 \newblock \url{http://techiaith.cymru/yr-adnoddau/llawlyfr-technolegau-iaith/}.
 \newblock Accessed: 2020-03-14.
 
+\bibitem{amledd}
+Amledd geiriau i categoreiddio geiriau.
+\newblock
+  \url{https://www.inf.ed.ac.uk/teaching/courses/inf2b/learnnotes/inf2b-learn-note07-2up.pdf}.
+\newblock Accessed: 2020-04-15.
+
 \bibitem{botio}
 App botio.
 \newblock \url{https://apps.apple.com/us/app/botio/id1296278646?ls=1}.
@@ -50,6 +56,34 @@ Canran o pull requests ar github yn wahanol ieithoedd rhaglennu.
 Cyfrifiadureg ar gyfer mathemateg.
 \newblock \url{https://vknight.org/cfm/cy/}.
 \newblock Accessed: 2020-03-14.
+
+\bibitem{cymwysiadaudysgupeirianyddol}
+Cymwysiadau wahanol dysgu peirianyddol.
+\newblock \url{https://www.edureka.co/blog/machine-learning-applications/}.
+\newblock Accessed: 2020-03-30.
+
+\bibitem{scikit-learn-bayes}
+Gwybodaeth ar dosbarthiad naif bayes.
+\newblock \url{https://www.edureka.co/blog/machine-learning-applications/}.
+\newblock Accessed: 2020-04-08.
+
+\bibitem{LBFGS}
+Gwybodaeth ar dull atchweliad logistaidd yn python.
+\newblock
+  \url{https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html}.
+\newblock Accessed: 2020-04-15.
+
+\bibitem{IWLS}
+Gwybodaeth ar dull glm yn r.
+\newblock
+  \url{https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/glm}.
+\newblock Accessed: 2020-04-15.
+
+\bibitem{GAD}
+Gwyddor data yn gad.
+\newblock
+  \url{https://www.gov.uk/government/news/special-feature-data-science-at-gad}.
+\newblock Accessed: 2020-04-15.
 
 \bibitem{python-sgiliauymchwil}
 Sgiliau ymchwil cyfrifiadurol.
@@ -89,10 +123,15 @@ Ethem Alpaydin.
 \newblock {\em Introduction to Machine Learning}.
 \newblock MIT Press, 2014.
 
-\bibitem{Logistic-regression}
+\bibitem{logistic-regression}
 K.Dietz; M.Gail;~K.Krickeberg; B.Singer.
 \newblock {\em Logistic regression: a self-learning text}.
 \newblock New York : Springer, 1994.
+
+\bibitem{naif-bayes}
+Paweł Cichosz.
+\newblock {\em Data Mining Algorithms: Explained using R}.
+\newblock Chichester, UK: John Wiley and Sons, Ltd, 2015.
 
 \bibitem{Algebra-llinol}
 Alun Morris.
@@ -104,6 +143,11 @@ Alun Morris.
 Alexander~Zien Olivier~Chapelle, Bernhard~Schölkopf.
 \newblock {\em Introduction to Semi-Supervised Learning}.
 \newblock MIT Press, 2006.
+
+\bibitem{PPM}
+Garcia~F Sigaud~O.
+\newblock {\em Reinforcement Learning}.
+\newblock Scopus, 2013.
 
 \bibitem{K-means-clustering}
 David M. J. Tax;~Ferdinand van der Heijden; Robert Duin; Dick~de Ridder.

@@ -1,29 +1,37 @@
 \chapter{Cyflwyniad}\label{cha:introduction}
 
-Mi fyddwn yn ysgrifennu fy mhrosiect blwyddyn ddiwethaf am dan algorithmau dysgu peirianyddol ag sut i eu defnyddio yn R ac Python. Fydd y prosiect yn cael ei ysgrifennu drwy gyfrwn Gymraeg. Mi fyddwn yn creu traethawd a gwefan i dangos y wybodaeth am yr algorithmau. Dwi am ysgrifennu am glystyru $k$-cymedr, atchweliad logistaidd ag , fydd y rhain i gyd yn bennod eu hunain.    
+Mi fyddwn yn ysgrifennu fy mhrosiect trydydd flwyddyn am algorithmau dysgu peirianyddol ag sut i'w defnyddio yn R ac Python. Fydd y prosiect yn cael ei ysgrifennu trwy cyfrwn y Gymraeg. Mi fyddwn yn creu traethawd a gwefan i gyfathrebu gwybodaeth am yr algorithmau. Dwi am ysgrifennu am glystyru $k$-cymedr, atchweliad logistaidd ag dosbarthiad na\"{i}f Bayes.
+
+Bydd y tiwtorialau yn cael ei ddangos drwy'r ieithoedd rhaglennu Python ag R, gan taw nhw yw'r ddwy iaith fwyaf poblogaidd ar gyfer dysgu peirianyddol a gwyddor data yn \^{o}l arolwg Kaggle nol yn 2018 \cite{kagglesurvey}. Mae hefyd ganddynt trwyddedau am ddim, sy'n bwysig ar gyfer hygrychedd. Rheswm arall i ddysgu defnyddio'r ieithoedd rhaglennu yma yw bod nhw'n god agored sy'n wahanol i SQL er enghraifft. Gan ei fod nhw'n god agored poblogaidd, mae'n meddwl fod nhw'n cael ei diweddaru yn aml. Cafodd R ei greu gan ystadegwyr a gan fy mod yn creu tiwtorialau am ddysgu peirianyddol o'r ochr ystadegaeth, mae'n gymhelliad i ddefnyddio R. Ar gyfer dysgu Python, nol yn 2019 roedd Python yr iaith rhaglennu ail fwyaf i gael ``pull requests'' ar Github \cite{canran-github}, a Github oedd y gwesteiwr fwyaf o god ffynhonnell yn y byd. Mae Python ag R yn cael ei ystyried i fod yn hawdd dysgu a deall yn gymhariaeth gydag ieithoedd rhaglennu eraill. Gwelwn yn y tiwtorialau i ddod nad yw gweithredu'r algorithmau yn yr ieithoedd hyn yn gymhleth.
 
 \section{Beth yw Dysgu Peirianyddol}\label{sec:intro_pd}
 
-Yn syml, Dysgu Peirianyddol yw rhaglennu cyfrifiaduron i optimeiddio rhyw feini prawf yn defnyddio data. Fyddem gyda model wedi'i ddiffinio o rhai paramedrau mesuradwy. Y darn dysgu o fewn y cyfrifiadur fydd i optimeiddio gyda pharch tuag at y paramedrau hyn. Gall y model fod yn un sy'n rhagfynegi neu yn disgrifiadol o'r data. Mae dysgu peirianyddol yn defnyddio ystadegaeth i adeiladu'r modelau mathemategol, mae cyfrifiadureg yn edrych i mewn mwy ar effeithiolrwydd y proses. \cite{dysgu-peirianyddol2}
+Yn syml, dysgu peirianyddol yw algorithmau i optimeiddio rhyw feini prawf gan ddefnyddio data. Mae rhain yn cynnwys model wedi'i ddiffinio o rhai paramedrau mesuradwy, a'r darn dysgu fydd i optimeiddio gyda pharch tuag at y paramedrau hyn. Gall y model fod yn un disgrifiadol o'r data, neu un sy'n rhagfynegi rhyw agwedd o'r data. Mae dysgu peirianyddol yn defnyddio ystadegaeth i adeiladu'r modelau mathemategol, ac mae cyfrifiadureg yn edrych mwy i mewn i effeithiolrwydd y proses.\cite{dysgu-peirianyddol2}
 
-Dydi dysgu peirianyddol ddim yn faes newydd, mae wedi bod o gwmpas ers y $50^{au}$ pan wnaeth Arthur Samuel o IBM creu rhaglen ar y cyfrifiadur i chwarae'r gem `checkers'. Yn yr amser hwn cafodd y term ei eni. Yna drwy ddatblygiadau technolegol diweddar, mae'r posibilrwydd o ddysgu peirianyddol bron yn ddiddiwedd. Ers ei sefydlu yn y $50^{au}$, mae wedi cymryd tan 1997 i ddatblygu rhaglen i guro'r chwaraewr gwyddbwyll orau yn y byd. Nid yn unig yw dysgu peirianyddol yn cael ei ddefnyddio i greu rhaglenni gemau, mae nawr yn cael ei ddefnyddio yn pob mathau o raglenni.
+Nid yw dysgu peirianyddol yn faes newydd, mae wedi bod o gwmpas ers y 50au pan wnaeth Arthur Samuel o IBM creu rhaglen ar y cyfrifiadur i chwarae'r gem draffts. Yr amser hwn cafodd y term ei bathu. Yna drwy ddatblygiadau technolegol diweddar, mae posibilrwyddau ddysgu peirianyddol bron yn ddiddiwedd. Ers cael ei sefydlu yn y 50au, cymerodd tan 1997 i ddatblygu rhaglen a all guro'r chwaraewr gwyddbwyll orau yn y byd. Nid yn unig yw dysgu peirianyddol yn cael ei ddefnyddio i greu rhaglenni gemau, mae nawr yn cael ei ddefnyddio ym mhob math o raglenni megis llawer o apiau ar eich ff\^{o}n fel ``Google Maps'', ``Uber'' i ``Netflix'' \cite{cymwysiadaudysgupeirianyddol}.
 
-Mae sylfaeni ddysgu peirianyddol yn cael eu defnyddio yn prosesu iaith naturiol. Mae'r proseses yma yn cael ei ddefnyddio i wneud ffwythiannau fel adnabod lleferydd, creu tecst i leferydd a chyfieithiad peirianyddol i enwi ambell un.
+Mae sylfaeni ddysgu peirianyddol yn cael eu defnyddio yn prosesu iaith naturiol a dadansoddi sentiment\cite{technolegau-iaith}. Mae'r proseses yma yn cael ei ddefnyddio i wneud ffwythiannau megis adnabod lleferydd, creu tecst i leferydd a chyfieithiad peirianyddol.
+Yn ogystal mae dysgu peirianyddol yn cael ei ddefnyddio i brosesu lluniau, mae'r defnydd yma'n cael ei weld yn aml gyda systemau adnabod wynebau.
 
-Yn ogystal mae dysgu peirianyddol yn cael ei ddefnyddio i brosesu lluniau, mae'r defnydd yma'n cael ei weld yn aml gyda systemau nabod wynebau.
+Mae dysgu peirianyddol yn cael ei ddefnyddio yn aml i ddadansoddi data pryd bynnag gennym ddata mawr. Mae ein llywodraeth yn defnyddio dysgu peirianyddol yn aml, mae adran actiwari y llywodraeth yn defnyddio dysgu peirianyddol i ddatblygu mewnwelediadau i'w problemau. Hyd yn hyn maen nhw wedi defnyddio dysgu peirianyddol i rannu cynlluniau pensiwn i grwpiau gyda phriodweddau tebyg ac wedi rhagfynegi cyflog graddedigion yn y dyfodol. \cite{GAD}  
 
-Yn y cynllun eang o bethau, mae dysgu peirianyddol yn is-set o ddeallusrwydd artiffisial. Mae deallusrwydd artiffisial wedi tyfu yn esbonyddol yn ddiweddar gydag dysgu peirianyddol. Mae deallusrwydd artiffisial yn y newyddion drwy'r adeg oherwydd datblygiadau parhaus. Yn ddiweddar rydym wedi gweld moduron heb yrrwr, roboteg glyfar i `chat bots'.
+Mae deallusrwydd artiffisial wedi tyfu yn esbonyddol yn ddiweddar gyda dysgu peirianyddol. Mae deallusrwydd artiffisial yn y newyddion drwy'r adeg oherwydd datblygiadau parhaus. Yn ddiweddar rydym wedi gweld moduron heb yrrwr, diagnosau meddygol, a `chat bots'.
+
+Categoreiddiwn algorithmau dysgu peirianyddol i ddwy brif fath - dysgu o dan orchwyliaeth, a dysgu heb orchwyliaeth. Maent yn wahanol yn eu pwrpas a'u dulliau.
 
 \subsection{Dysgu dan Oruchwyliaeth}
 
-Gadewch barau o bwyntiau $(\mathbf{x}_{i},y_{i})$ fod yn enghreifftiau a dynodwyd yn ein set ymarfer. Yn y fan hyn mae $y_{i} \in \alpha$ yn cael ei alw yn labeli, gall y labelau yma fod yn arwahanol neu ddi-dor. Fydd $\mathbf{x}_{i} \in  \beta$ yn fector gyda gwerthoedd ar gyfer priodoleddau gwahanol. Mae'n bwysig i dybio pob p\^{a}r wedi'i samplu'n annibynnol a'i dosbarthu o ddosraniad dros $\alpha \times \beta$. Y nod ar gyfer dysgu dan oruchwyliaeth yw dysgu'r map o $\mathbf{x}$ i $y$ gan ddefnyddio'r set ymarfer. \cite{dysgu-peirianyddol}
+Diffiniwn $\alpha$ i fod y set o bob label, gall y labeli fod yn arwahanol neu yn ddi-dor, yna diffiniwn $\beta$ fod y fector o ddimensiwn $D \in \mathbb{Z}_{+}$. Gadewch i'n data fod nifer o barau o bwyntiau $(\mathbf{x}_{i},y_{i})$. Yn y fan hyn mae $y_{i} \in \alpha$. Fydd $\mathbf{x}_{i} \in  \beta$ yn fector gyda gwerthoedd ar gyfer priodoleddau gwahanol. Y nod ar gyfer dysgu dan oruchwyliaeth yw dysgu'r mapiad o $\mathbf{x}$ i $y$.\cite{dysgu-peirianyddol}
 
-Mae'r ffurf wahanol o ddysgu dan oruchwyliaeth yn cael ei rhannu i ddau faes yn \^{o}l sut fath o ddata sydd gennym. Os yw'r data yn arwahanol, mae gennym ddosbarthiad. Os mae'r data yn ddi-dor, mae gennym atchweliad. Mae yna lwyth o wahanol fathau o ddosbarthiadau ag atchweliadau; dyma ambell o enghreifftiau ohonyn:
+Gwnawn hyn trwy hollti'r data i mewn i set hyfforddi a set profi, lle mae'n bwysig i dybio pob pwynt wedi'i samplu'n annibynnol a'i dosbarthu o ddosraniad dros $\alpha \times \beta$. Defnyddiwn y set hyfforddi i rhedeg yr algorithm dysgu peiranyddol a chanfod y mapiad. Defnyddiwn y set profi er mwyn gwirio'r mapiad hyn. Fel arfer defnyddiwn tua 70\% o'r data fel y set hyfforddi, a'r 30\% gweddill fel y set profi, er taw tra-baramedr (hyper-parameter) yr hon ac felly gellid ei ddewis.
 
+Mae'r ffurfiau wahanol o ddysgu dan oruchwyliaeth yn cael ei rhannu i ddau faes yn \^{o}l sut fath o ddata sydd gennym. Os yw'r label yn data arwahanol, mae gennym ddosbarthiad (classification). Os yw'r label yn data di-dor, mae gennym atchweliad (regression). Mae yna lwyth o wahanol fathau o ddosbarthiadau ag atchweliadau; dyma ambell o enghreifftiau ohonynt:
+
+\begin{multicols}{2}
 \textbf{Dosbarthiad:}
 
 \begin{itemize}
-	\item Coeden penderfyniadau
+	\item Coed penderfyniadau
 	\item Dosbarthiad na\"{i}f Bayes 
 	\item $K$ cymydog agosaf
 \end{itemize} 
@@ -35,10 +43,11 @@ Mae'r ffurf wahanol o ddysgu dan oruchwyliaeth yn cael ei rhannu i ddau faes yn 
 	\item Atchweliad llinol
 	\item Atchweliad Poisson
 \end{itemize}
+\end{multicols}
 
 \subsection{Dysgu heb Oruchwyliaeth}
 
-Gadewch $ X = ( x_{1}, \dots, x_{n} ) $ dynodi $n$ enghreifftiau lle mae $x_{i} \in \gamma$ ag $i \in \{ 1, \dots, n \}$. Ar gyfer dysgu heb oruchwyliaeth fyddem yn tybio fod yr enghreifftiau $x_{i}$ wedi'i samplu'n annibynnol a'i dosbarthu o ddosraniad unfath ar $\gamma$. Y nod o ddysgu heb oruchwyliaeth yw amcangyfrif dwysedd o'r dosraniad ar $\gamma$. \cite{dysgu-peirianyddol}
+Diffiniwn $\gamma$ i fod yn ddosraniad. Gadewch i'n data fod $X = (x_{1}, \dots, x_{n})$ sy'n dynodi $n$ pwyntiau lle mae $x_{i} \in \gamma$ ag $i \in \{ 1, \dots, n \}$. Tybiwn fod yr enghreifftiau $x_{i}$ wedi'i samplu'n annibynnol a'i dosbarthu o ddosraniad unfath ar $\gamma$. Y nod o ddysgu heb oruchwyliaeth yw amcangyfrif dwysedd o'r dosraniad sy'n debygol o fod wedi creu $X$.\cite{dysgu-peirianyddol}
 
 Mae'r fatha boblogaidd o ddysgu heb oruchwyliaeth yn cymryd ffurf wannach o'r syniad hyn. Dyma ambell i enghraifft ar ffurfiau gwahanol o ddysgu heb oruchwyliaeth:
 
@@ -46,31 +55,34 @@ Mae'r fatha boblogaidd o ddysgu heb oruchwyliaeth yn cymryd ffurf wannach o'r sy
 	\item Clystyru
 	\item Lleihad dimensiwn
 	\item Model Markov cudd
-\end{itemize} 
+\end{itemize}
 
-\subsection{Darllen Pellach}
+\subsection{Dysgu atgyfnerthol}
 
-Mae dysgu dan oruchwyliaeth rannol yn cymryd priodweddau o'r ddwy ffordd o ddysgu. Y ffurf fwyaf traddodiadol o hyn yw cael data wedi'i labelu a data heb ei labelu ac yno dilyn proses hunan ddysgu.
+Mae dysgu atgyfnerthol yn dysgu drwy wrando ar adborth o'r system ei hyn. Fydd y peiriant yn dysgu i wneud dulliau sy'n arwain tuag at adborth da ac yna yn osgoi unrhyw dullai caiff adborth gwael. Mae hyn yn wahanol i ddysgu dan oruchwyliaeth gan fod does ddim gymaint o ddibyniaeth ar y ddata hyfforddi. Mae'n wahanol i ddysgu heb oruchwyliaeth gan ein bod angen dewis pryd i dderbyn adborth o'r system \cite{technolegau-iaith}. 
 
-%Fuzzy
+Enghraifft o ddysgu atgyfnerthol yw prosesau penderfynu Markov, mae'n cael ei ddiffinio fel proses stocastig dan reolaeth. Mae prosesau penderfynu Markov yn cael ei ddiffinio gan y plyg $(S,A,T,p,r)$. Yn y plyg mae'r newidynnau yn cael ei ddiffinio fel: $S$ yw'r gofod sy'n cynrychioli esblygiad y prosesau, $A$ yw'r set o bob gweithred sy'n bosib, $T$ yw'r set o amseroedd rhwng dewisiadau, $p$ sy'n dynodi'r ffwythiant tebygolrwydd ar gyfer y trosglwyddo cyflwr ac $r$ sy'n dynodi'r ffwythiant wobrwyo i'r trosglwyddo cyflwr. Mae prosesau penderfynu Markov yn efelychu system ac yna yn dewis gweithrediadau ar hap ac yn penderfynu ansawdd y dewis drwy'r ffwythiant wobrwyo. Felly fydd y system yn optimeiddio i ddewis yr opsiynau fydd yn allbwn y wobr orau ac felly yn dewis yr opsiwn o'r ansawdd orau.\cite{PPM} 
 
-\section{Pam}
+\section{Adnoddau Cyfrwng Cymraeg ar gyfer Dysgu Peirianyddol}
 
-\subsection{Be sydd yna yn barod?}
+Dyma'r adnoddau Cymraeg sydd ar gael yn barod yn y faysydd Deallusrwydd Artiffisial, Cyfrifiadureg ag Mathemateg:
+
+\subsection{Gwerthuso adnoddau sy'n bodoli}
 \begin{table}[htbt!]
+
 \begin{center}
 \rotatebox{90}{%
 \begin{tabular}{ | p{0.24\textwidth} | p{0.24\textwidth} | p{0.24\textwidth} | p{0.24\textwidth} | p{0.05\textwidth} | }
 \hline
-Adnodd & Awdur & Fformat & Cynulleidfa Darged & Linc\\
+\textit{\textbf{Adnodd}} & \textit{\textbf{Awdur}} & \textit{\textbf{Fformat}} & \textit{\textbf{Cynulleidfa Darged}} & \textit{\textbf{Linc}}\\
 \hline
-Cwrs Cyfrifiadureg ar gyfer Mathemateg yn Python & Dr Vince Knight a Dr Geraint Palmer & Tiwtorial ar wefan & Dechreuwyr mewn codio Python & \cite{Cyfrifiadureg-maths}\\
+Cwrs `Cyfrifiadureg ar gyfer Mathemateg' yn Python & Dr Vince Knight a Dr Geraint Palmer & Tiwtorial ar wefan & Dechreuwyr mewn codio Python & \cite{Cyfrifiadureg-maths}\\
 \hline
 Cyrsiau allgyrsiol yn Scratch, HTML, CSS ag Python & Code Club & Tiwtorialau ar y w\^{e} & Plant rhwng $9$ ac $13$ & \cite{codeclub} \\
 \hline
 Adnoddau ar lawer o testynau wahanol yn cyfrifiadureg & Technocamps & Mewn ffurdd pdf & Plant yn ysgol/coleg & \cite{technocamps} \\
 \hline
-Cwrs cychwynol yn Python & Dr Geraint Palmer & Tiwtorialau ar y w\^{e} & Dechreuwyr mewn codio Python & \cite{python-sgiliauymchwil} \\
+Cwrs mewn sgiliau ymchwil cyfrifiadurol & Dr Geraint Palmer & Tiwtorialau ar y w\^{e} & Ymchwilwyr & \cite{python-sgiliauymchwil} \\
 \hline
 Gwybodath ar gydrannau pwysicaf technolegau iaith & Uned technoleg iaith Prifysgol Bangor a Cymen Cyf. & Llawlyfr ar y w\^{e}  & Myfyrwyr, datblygwyr neu academyddion heb gefndir yn y maes & \cite{technolegau-iaith} \\
 \hline
@@ -88,56 +100,40 @@ Amrhyw o adnoddau Mathemategol yn dilyn cwricwla CBAC & Dr Gareth Evans & Wefan 
 \hline
 \end{tabular}%
 }
-\end{center}
+\end{center}\label{fig:tabl}
+\caption{Tabl o adnoddau sydd allan yn barod.}
 \end{table}
 
-Mae'r tabl uchod wedi'i rhannu i adnoddau codio Cymraeg ag i adnoddau Mathemategol Cymraeg. Fel gwelwn yn ebrwydd, mae'r nifer o adnoddau codio yn llawer fwy nag rheina o adnoddau mathemategol. Mae'r adnodd \cite{Cyfrifiadureg-maths} yn cychwyn da i unrhyw un sydd gyda diddordeb o gychwyn codio yn Python, mae'n defnydd gwych ar gyfer myfyrwyr Mathemateg israddedig gan ei fod yn benodol i Fathemateg. Yn ogystal i'r cwrs yma mae gennym hefyd bach o gyflwyniad i Python ar y wefan sgiliau ymchwil ailhynhyrchiadwy \cite{python-sgiliauymchwil}. 
 
-Gwelwn yn ogystal fod yna adnoddau ar gyfer rhaglennu yn Python yn Gymraeg ar gael ar YouTube. Ar sianel Geraint Palmer mae yna gasgliad o diwtorialau Python. Mae'r tiwtorialau yn cychwyn gyda'r sylfaen o raglennu yn Python ag yn gorffen gyda mynd dros yr Algorithm Genetig sy'n mynd law yn llaw gyda fy mhrosiect.
+Mae Tabl~\ref{fig:tabl} wedi'i rhannu i adnoddau codio Cymraeg ag i adnoddau mathemategol Cymraeg. Fel gwelwn yn ebrwydd, mae'r nifer o adnoddau codio yn llawer fwy nag rheina o adnoddau mathemategol. Mae'r adnodd \cite{Cyfrifiadureg-maths} yn cychwyn da i unrhyw un sydd gyda diddordeb o gychwyn codio yn Python, mae'n defnydd gwych ar gyfer myfyrwyr mathemateg israddedig gan ei fod yn benodol i fathemateg. Yn ogystal i'r cwrs yma mae gennym hefyd bach o gyflwyniad i Python ar y wefan Sgiliau Ymchwil Ailhynhyrchiadwy \cite{python-sgiliauymchwil}, er bod hyn yn canolbwyntio mwy ar sgiliau fwy eang megis rheolaeth fersiwn a datblygu meddalwedd ymchwil.
 
-Mae'r wefan codeclub gydag amrywiaeth eang o adnoddau i godio. Mae yna gyrsiau ar HTML, CSS, Python a Scratch. Yn ogystal mae yna brosiectau pellach sy'n gweithredu raspberry pi. 
+\clearpage
 
-Gwelwn gydag adnodd technocamps \cite{technocamps}, fod yna amrywiaeth eang o adnoddau yn fan hyn fyd. Mae'r wefan yn wedi'i thargedu i oedran hyn nag y wefan codeclub. Mae technocamps gyda chyrsiau cychwynnol fel y canlynol:
+Gwelwn yn ogystal fod yna adnoddau ar gyfer rhaglennu yn Python yn Gymraeg ar gael ar YouTube. Ar sianel Geraint Palmer \cite{youtube} mae yna gasgliad o diwtorialau Python. Mae'r tiwtorialau yn cychwyn gyda'r sylfaen o raglennu yn Python ag yn gorffen gyda mynd dros yr algorithm genetig, sy'n mynd law yn llaw gyda fy mhrosiect.
+Mae gan y wefan codeclub amrywiaeth eang o adnoddau ar gyfer codio \cite{codeclub}. Mae yna gyrsiau ar HTML, CSS, Python a Scratch. Yn ogystal mae yna brosiectau pellach sy'n gweithredu Raspberry Pi. 
 
-\begin{enumerate}
-	\item CS 101
-	\item Deallusrwydd Artiffisial
-	\item Greenfoot (Java)
-	\item Python
-	\item Scratch
-\end{enumerate} 
+Gwelwn gydag adnodd technocamps \cite{technocamps}, fod yna amrywiaeth eang o adnoddau yn fan hyn fyd. Mae'r wefan wedi'i thargedu i oedran h\^{y}n na'r wefan codeclub. Mae gan technocamps cyrsiau cychwynnol fel y canlynol: CS 101, Deallusrwydd Artiffisial, Greenfoot (Java), Python a Scratch.
 
-Ar wefan technolegau iaith \cite{technolegau-iaith}, mae yna gyflwyniad i'r darnau fwyaf sylfaenol i dechnolegau iaith. Mae lawlyfr yn cynnwys gwybodaeth am ddeallusrwydd artiffisial, dysgu dwfn a phrosesu iaith naturiol. Yn rhedeg yn gyfagos i'r wefan yma yw'r ystorfeydd ar github \cite{github-technolegauiaith}. Yn yr ystorfeydd mae yna diwtorial ar sut i greu robot sgwrsio drwy ``turing test lessons''. 
+Ar wefan technolegau iaith \cite{technolegau-iaith}, mae yna gyflwyniad i'r darnau fwyaf sylfaenol i dechnolegau iaith. Mae yna lawlyfr yn cynnwys gwybodaeth am ddeallusrwydd artiffisial, dysgu dwfn a phrosesu iaith naturiol, mae'n rhoi cyflwyniad i fewn i'r ochr damcaniaethol ohono. Yn rhedeg yn gyfagos i'r wefan yma yw'r ystorfeydd ar GitHub \cite{github-technolegauiaith}. Yn yr ystorfeydd mae yna diwtorial ar sut i greu robot sgwrsio syml drwy ``turing test lessons'', mae'n addas i rhai yng nghyfnod allweddol $2$ a $3$. Mae'n cynnwys tair gwers, un ar sut mae cyfrifiaduron yn meddwl, yr ail ar ydy cyfrifiaduron yn gallu meddwl drostynt eu hynain ag y dwythaf am creu robot sy'n sgwrsio drwy'r defnydd o Raspberry Pi.
 
-Yn y siop ap apple, fedrem lawrlwytho'r ap botio. Mae'n ap ar gyfer plentyn gyda diddordeb cael i mewn i rhaglennu.
+Yn y siop ap Apple, fedrem lawrlwytho'r ap botio \cite{botio}. Mae'n ap am chwilota'r gofod am blanedau newydd drwy raglennu. Mae'r ap wedi'i ariannu gan Lywodraeth Cymru ag ar gael am ddim. Cafodd ei greu ar gyfer plant sydd \^{a} diddordeb cael i mewn i raglennu.
 
-Mae'r adnodd am ddim oddiwrth Alun Morris \cite{Algebra-llinol} yn trafod y sylfeini eu hangen i astudio algbra llinol yn mhrifysgol. Mae'r adnodd yma yn enghraifft wych o'r fath o adnoddau mae'r iaith Gymraeg angen fwy ohono. Mae yna brinder iawn ar adnoddau o'r ansawdd yma i'r lefel yma o addysg. 
+Ar yr ochr mathemategol, mae'r adnodd am ddim gan Alun Morris \cite{Algebra-llinol} yn trafod y sylfeini eu hangen i astudio algebra llinol yn mhrifysgol. Mae'r adnodd yma yn enghraifft wych o'r fath o adnoddau mae'r iaith Gymraeg angen fwy ohono. Mae prinder iawn ar adnoddau o'r ansawdd yma yn agored i'r cyhoedd. Mae yna tair prifysgol yn cynnig cyrsiau mathemateg drwy'r Coleg Cymraeg ond dydi dim un yn darparu eu nodiadau drwy borth Coleg Cymraeg. 
+Serch hynny mae yna gyfoeth o adnoddau mathemateg Cymraeg ar gyfer addysg o dan $18$ oed, gwelwn hyn gyda'r nifer mawr o adnoddau ar wefan Dr Gareth Evans o Ysgol Creuddyn \cite{mathemateg}.  
 
-Mae yna gyfoeth o adnoddau mathemateg Cymraeg ar gyfer addysg o dan $18$ oed, gwelwn hyn gyda'r nifer mawr o adnoddau ar wefan Dr Gareth Evans o Ysgol Creuddyn \cite{mathemateg}.  
+Gwelwn fod yna llawer o adnoddau ar gyfer y maes mathemateg a chyfrifiadureg ar gyfer addysg ysgol. Mae yna ddigon o adnoddau i alluogi cenhedlaeth newydd i astudio'r sylfaen gofynnol drwy'r ysgol i astudio unrhyw un o'r ddau yn brifysgol. Unwaith fyddem yn cyrraedd lefel addysg prifysgol, mae'r prinder yn amlwg. Gan fod testunau dysgu peirianyddol yn cynnwys mathemateg o lefel uwch, mae rhaid cael sylfaen datblygedig o destunau mathemateg i'w ddeall. Gallwn ddweud yr un peth am yr angenrheidrwydd o sylfaen datblygedig o gyfrifiadureg. Y broblem sydd gennym yw does yna ddim yr adnoddau yw gwneud gyda mathemateg lefel uwch nag rhaglennu yn R yn y Gymraeg.
 
-Gwelwn fod yna llawer o adnoddau ar gyfer y maes Mathemateg a Chyfrifiadureg i addysg ysgol. Mae yna ddigon o adnoddau i alluogi cenhedlaeth newydd i astudio'r sylfaen gofynnol drwy'r ysgol i astudio unrhyw un o'r ddau yn brifysgol. Unwaith fyddem yn cyrraedd lefel addysg prifysgol, mae'r prinder yn amlwg. Gan fod testunau cymhleth dysgu peirianyddol yn cynnwys Mathemateg gymhleth yn ei hun, mae rhaid cael sylfaen datblygedig o destunau Mathemateg i'w ddeall. Gallwn ddweud yr un peth am dan yr angenrheidrwydd o sylfaen datblygedig o gyfrifiadureg. Y broblem sydd gennym yw does yna ddim yr adnoddau yw gwneud gyda Mathemateg ag rhaglennu yn R.
+\subsection{Yr angen am adnoddau Cyfrwng Cymraeg}
 
-\subsection{Pam Python ag R?}
+I gychwyn, rwyf eisiau creu gwefan sy'n cynnwys tiwtorialau Cymraeg am algorithmau dysgu peirianyddol oherwydd y prinder ohonyn. Mae yna gymaint o adnoddau ar gyfer pob math o algorithm trwy gyfrwng Saesneg, ond yn Gymraeg, does yna ddim byd o'r fath! Fel gwelwn yn Nhabl~\ref{fig:tabl}, does yna ddim llawer o adnoddau Cymraeg sy'n cynnwys deunydd datblygedig ar gael i'r cyhoedd. O fy mhrofiad personol i, rwyf yn gwybod fod prifysgolion yng Nghymru gydag adnoddau drwy'r cyfrwng Cymraeg ar gael i'w myfyrwyr nhw yn unig. Teimlaf fod hyn yn atal y parhad o addysg ar \^{o}l i fyfyrwyr gorffen eu hastudiaethau ffurfiol oherwydd nad oes adnoddau am ddim ar gael. 
 
-Fydd y tiwtorialau i ddilyn yn cael ei ddangos drwy'r ieithoedd rhaglennu Python ag R, fydd hyn oherwydd nhw yw'r ddwy iaith fwyaf poblogaidd yn dysgu peirianyddol a gwyddor data yn \^{o}l arolwg Kaggle nol yn 2018 \cite{kagglesurvey}.
+Ers i'r iaith Gymraeg cael ei rhoi ar sylfaen gyfartal i Saesneg yn Gymru yn 1993 a chael gwasanaethau cyhoeddus yn y ddwy iaith, mae wedi bod effaith domino i'r sector preifat. Mae prifysgolion yn gyrff preifat ac felly nid yw'n angenrheidiol iddyn nhw ddilyn \cite{prifysgolion}, ond yn 2011 cafodd y coleg Cymraeg ei sefydlu i ornest a hyn. Mae'r coleg yn hybu prifysgolion Cymru i newid i fod yn ddwyieithog drwy weithio yn bartneriaeth gyda nhw. Hyd at heddiw mae yna fwy o fodiwlau yn cael ei gyfieithu a fwy o fodiwlau yn cael ei chynnig drwy gyfrwng y Gymraeg. Ar gyfer y garfan fydd yn graddio yn 2020 dim ond naw modiwl oedd ar gael drwy'r cyfrwng Cymraeg a rhan fwyaf ohonyn nhw yn y flwyddyn gyntaf.
 
-Rheswm arall i ddysgu defnyddio'r ieithoedd rhaglennu yma yw bod nhw'n god agored sy'n wahanol i SQL er enghraifft. Gan ei fod nhw'n god agored poblogaidd, mae'n meddwl fod nhw'n cael ei diweddaru yn aml.
-
-Cafodd R ei greu gan ystadegwyr a gan fy mod yn creu tiwtorialau am ddysgu peirianyddol o'r ochr ystadegaeth, mae'n gymhelliad i ddefnyddio R. Ar gyfer dysgu Python, nol yn 2019 roedd Python yr iaith rhaglennu ail fwyaf i gael ``pull requests'' ar github \cite{canran-github}, mae github y gwesteiwr fwyaf o god ffynhonnell yn y byd.  
-
-Mae Python ag R yn cael ei ystyried i fod yn hawdd dysgu a deall yn gymhariaeth gydag ieithoedd rhaglennu eraill. Gwelwn hyn i fod yn wir yn y tiwtorialau i ddod. 
-
-\subsection{Pam Cymraeg?}
-
-I gychwyn, rwyf eisiau creu gwefan sy'n cynnwys tiwtorialau Cymraeg am algorithmau dysgu peirianyddol oherwydd y prinder ohonyn. Mae yna gymaint o adnoddau ar gyfer pob mathau o algorithmau drwy Saesneg ond yn Gymraeg, does yna ddim byd o'r fath! Fel gwelwn yn y tabl o adnoddau cynnar, does yna ddim llawer o adnoddau Cymraeg sy'n cynnwys deunydd datblygedig ar gael i'r cyhoedd. O fy mhrofiad personol i, rwyf yn gwybod fod prifysgolion yng Nghymru gydag adnoddau drwy'r cyfrwng Cymraeg ar gael i'w myfyrwyr nhw yn unig. Teimlaf fod hyn yn atal y parhad o addysg ar \^{o}l i fyfyrwyr gorffen eu hacadem\"{i}au gan fod adnoddau am ddim, ddim ar gael.
-
-Ers i'r iaith Gymraeg cael ei rhoi ar sylfaen gyfartal i Saesneg yn Gymru yn 1993 a chael gwasanaethau cyhoeddus yn ddwy iaith, mae yna wedi bod effaith domino i'r sector preifat. Mae prifysgolion yn gyrff preifat ac felly dydi ddim yn angenrheidiol iddyn nhw ddilyn \cite{prifysgolion}, ond yn 2011 cafodd y coleg Cymraeg ei sefydlu i ornest a hyn. Mae'r coleg yn hybu prifysgolion Cymru i newid i fod yn ddwyieithog drwy weithio yn bartneriaeth gyda nhw. Gwelwn y datblygiad yma yn fy amser i ym mhrifysgol. Drwy Haf 2019 mi oeddwn i yn ddarn o'r prosiect i gyfieithu nodiadau darlith modiwl algebra llinol a thebygolrwydd, dangosaf hyn fod yna waith yn cael ei wneud o fewn prifysgolion i addasu'r holl waith i gyfrwng y Gymraeg. Ond yn bolisi prifysgol Gaerdydd ar wasanaethau'r iaith Gymraeg, gwelwn fod nhw wedi'i esgusodi o orfod creu adnoddau Cymraeg ar gyfer unrhyw fath o adnoddau dysgu\cite{gwasanaethiaith}. Teimlaf fod yr Ysgol Fathemateg o'r prifysgol dim ond wedi cyfieithu digon o fodiwlau i alluogi cynnal y cwrs drwy ysgoloriaeth Coleg Cymraeg. os fyswn wedi bod eisiau gwneud fy nghwrs drwy'r cynllun yma fyswn heb gael yr ehangder o ddewis rwyf wedi cael drwy fy ngradd.
-
-Rheswm arall i wneud yn Gymraeg yw cefnogi'r prosiect o'r llywodraeth a'r wlad i gael miliwn o siaradwyr Cymraeg erbyn 2050 \cite{cymraeg2050}. I gymhorthi'r prosiect yma cafodd cynllun ei rhoi allan yn hybu'r defnydd a chynnyrch o adnoddau technolegol Cymraeg \cite{cymraeg2050tech}, yn ogystal i greu adnoddau mae'r cynllun yn targedu y datblygiad o ddeallusrwydd artiffisial drwy edrych ar brosesu iaith naturiol yn bennaf. Mae creu'r adnodd yma yn Gymraeg yn bodloni'r ddwy adran o'r cynllun, gobeithio bydd yn hybu fwy i gychwyn creu adnoddau addysg uwch yn y maes yma. Credaf fod rhyw fath o ateb cyflym i'r prinder fysa os fysa'r prifysgolion yn gadael ei adnoddau allan am ddim ar borth coleg Cymraeg, fel bod rhai prifysgolion yn yr Unol Daleithiau America lle mae yna ystorfa o gyrsiau gydag adnoddau agored ar wefan Coursera \cite{coursera}.
+Rheswm arall i wneud yn Gymraeg yw cefnogi prosiect y llywodraeth a'r wlad i gael miliwn o siaradwyr Cymraeg erbyn 2050 \cite{cymraeg2050}. I gymhorthi'r prosiect yma cafodd cynllun ei rhoi allan yn hybu'r defnydd a chynnyrch o adnoddau technolegol Cymraeg \cite{cymraeg2050tech}. Yn ogystal i greu adnoddau mae'r cynllun yn targedu y datblygiad o ddeallusrwydd artiffisial drwy edrych ar brosesu iaith naturiol yn bennaf. Mae creu'r adnodd yma yn Gymraeg yn bodloni'r ddwy adran o'r cynllun, gobeithio bydd yn hybu fwy i gychwyn creu adnoddau addysg uwch yn y maes yma. Un ateb cyflym i'r prinder fysa os fysa'r prifysgolion yn gadael ei adnoddau allan am ddim ar borth coleg Cymraeg, fel bod rhai prifysgolion yn yr Unol Daleithiau America lle mae yna ystorfa o gyrsiau gydag adnoddau agored ar wefannau fel Coursera \cite{coursera}.
 
 \section{Strwythyr}
 
-Fydd y traethawd yma ymlaen yn cynnwys tair pennod ar algorithm dysgu peirianyddol. Yn pob pennod fydd yna gefndir ar beth yw'r algorithm a pryd fyddem yn ei ddefnyddio, yn ogystal fydd yna gefndir ar sut mae'r algorithm yn gweithio a beth yw'r Fathemateg t\^{y} \^{o}l i'r algorithm. Yna fydd yna diwtorial o sut yw defnyddio yn R ac yna tiwtorial arall yn Python.
+Fydd y traethawd yma yn cynnwys tair pennod ar algorithm dysgu peirianyddol. Yn pob pennod fydd yna gefndir ar beth yw'r algorithm a pryd fyddem yn ei ddefnyddio, yn ogystal fydd yna gefndir ar sut mae'r algorithm yn gweithio a beth yw'r fathemateg tu \^{o}l i'r algorithm. Yna fydd yna diwtorial o sut i'w defnyddio yn R ac yna tiwtorial arall yn Python.
 
-Ar gyfer y wefan, fydd yna dudalen cartref lle fydd yno linc i bob tiwtorialau yn y ddau Python ag R. Fydd y wefan yn cynnwys y tiwtorialau ag y wybodaeth angenrheidiol i allu gwneud yr algorithmau yn yr iaith rhaglennu o eich dewis.
+Ar gyfer y wefan, mae dudalen cartref lle fydd yno linc i bob tiwtorialau yn y ddau Python ag R. Mae'r wefan yn cynnwys y tiwtorialau ag y wybodaeth angenrheidiol i allu gwneud yr algorithmau yn yr iaith rhaglennu o'ch dewis. Dyma yr wefan: \url{https://dysgupeirianyddol.github.io/}.
 

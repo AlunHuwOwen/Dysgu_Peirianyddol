@@ -1,0 +1,6 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}} tebygolrwydd \PYG{o}{\PYGZlt{}\PYGZhy{}} \PYG{k+kr}{function}\PYG{p}{(}plaid\PYG{p}{,} data\PYG{p}{)}
+\PYG{o}{+} \PYG{p}{\PYGZob{}}
+\PYG{o}{+}   \PYG{k+kp}{sum}\PYG{p}{(}etholiad\PYG{p}{[,}\PYG{l+s}{\PYGZdq{}Plaid.Wleidyddol\PYGZdq{}}\PYG{p}{]}\PYG{o}{==}plaid\PYG{p}{)}\PYG{o}{/}\PYG{k+kp}{length}\PYG{p}{(}etholiad\PYG{p}{[,}\PYG{l+s}{\PYGZdq{}Plaid.Wleidyddol\PYGZdq{}}\PYG{p}{])}
+\PYG{o}{+} \PYG{p}{\PYGZcb{}}
+\end{Verbatim}

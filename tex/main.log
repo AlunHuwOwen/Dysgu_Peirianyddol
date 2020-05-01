@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2020.1.31)  31 MAR 2020 13:27
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2020.1.31)  1 MAY 2020 12:32
 entering extended mode
 **./main.tex
 (main.tex
@@ -1208,10 +1208,60 @@ Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks37
 \verbatim@line=\toks38
 \verbatim@in@stream=\read6
+) ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\multicol.st
+y"
+Package: multicol 2019/03/01 v1.8w multicolumn formatting (FMi)
+\c@tracingmulticols=\count328
+\mult@box=\box89
+\multicol@leftmargin=\dimen285
+\c@unbalance=\count329
+\c@collectmore=\count330
+\doublecol@number=\count331
+\multicoltolerance=\count332
+\multicolpretolerance=\count333
+\full@width=\dimen286
+\page@free=\dimen287
+\premulticols=\dimen288
+\postmulticols=\dimen289
+\multicolsep=\skip59
+\multicolbaselineskip=\skip60
+\partial@page=\box90
+\last@line=\box91
+\maxbalancingoverflow=\dimen290
+\mult@rightbox=\box92
+\mult@grightbox=\box93
+\mult@gfirstbox=\box94
+\mult@firstbox=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\c@minrows=\count334
+\c@columnbadness=\count335
+\c@finalcolumnbadness=\count336
+\last@try=\dimen291
+\multicolovershoot=\dimen292
+\multicolundershoot=\dimen293
+\mult@nat@firstbox=\box113
+\colbreak@box=\box114
+\mc@col@check@num=\count337
 )
-\c@definition=\count328
-\c@theorem=\count329
-\c@proof=\count330
+\c@definition=\count338
+\c@theorem=\count339
+\c@proof=\count340
 runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > ma
 in.aex <nul: /p x=^%~$PATH:i>> main.aex)...executed.
 
@@ -1219,39 +1269,39 @@ runsystem(del main.aex)...executed.
 
  (main.aux (frontcover.aux) (diolchadau.aux) (chapters/Cyflwyniad.aux)
 (chapters/Clystyru_k_modd.aux) (chapters/Atchweliad_logistaidd.aux)
-(chapters/Termau.aux))
+(chapters/Dosbarthiad_naif_bayes.aux) (chapters/Termau.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
-0.
+2.
 
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box89
-Package hyperref Info: Link coloring OFF on input line 30.
+\AtBeginShipoutBox=\box115
+Package hyperref Info: Link coloring OFF on input line 32.
 
 ("C:\Users\User\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.st
 y"
@@ -1262,11 +1312,11 @@ Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count331
+\c@section@level=\count341
 )
-LaTeX Info: Redefining \ref on input line 30.
-LaTeX Info: Redefining \pageref on input line 30.
-LaTeX Info: Redefining \nameref on input line 30.
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
+LaTeX Info: Redefining \nameref on input line 32.
 
 (main.out) (main.out)
 \@outlinefile=\write6
@@ -1312,6 +1362,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
+ (main.lot)
+\tf@lot=\write9
+\openout9 = `main.lot'.
+
  [3
 
 ]
@@ -1322,97 +1376,89 @@ Pennod 1.
 [4
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
-[]\TU/lmr/m/n/10 Cwrs Cyfrifiadureg ar
+] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
+[]\TU/lmr/m/n/10 Cwrs ‘Cyfrifiadureg ar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
-\TU/lmr/m/n/10 gyfer Mathemateg yn
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
+\TU/lmr/m/n/10 gyfer Mathemateg’ yn
  []
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 90--90
+Underfull \hbox (badness 1460) in paragraph at lines 102--102
 []\TU/lmr/m/n/10 Dr Vince Knight a Dr
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
 []\TU/lmr/m/n/10 Cyrsiau allgyrsiol yn
  []
 
 
-Underfull \hbox (badness 7133) in paragraph at lines 90--90
+Underfull \hbox (badness 7133) in paragraph at lines 102--102
 []\TU/lmr/m/n/10 Adnoddau ar lawer o
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
-[]\TU/lmr/m/n/10 Cwrs cychwynol yn
- []
-
-
-Underfull \hbox (badness 4713) in paragraph at lines 90--90
+Underfull \hbox (badness 4713) in paragraph at lines 102--102
 []\TU/lmr/m/n/10 Gwybodath ar gydran-
  []
 
 
-Underfull \hbox (badness 1910) in paragraph at lines 90--90
+Underfull \hbox (badness 1910) in paragraph at lines 102--102
 \TU/lmr/m/n/10 ysgol Bangor a Cymen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
 []\TU/lmr/m/n/10 Myfyrwyr, datblygwyr
  []
 
 
-Underfull \hbox (badness 5578) in paragraph at lines 90--90
+Underfull \hbox (badness 5578) in paragraph at lines 102--102
 \TU/lmr/m/n/10 neu academyddion heb
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 90--90
+Underfull \hbox (badness 1577) in paragraph at lines 102--102
 []\TU/lmr/m/n/10 Enghreifftiau a thiwtor-
  []
 
 
-Underfull \hbox (badness 1910) in paragraph at lines 90--90
+Underfull \hbox (badness 1910) in paragraph at lines 102--102
 \TU/lmr/m/n/10 ysgol Bangor a Cymen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
 []\TU/lmr/m/n/10 Myfyrwyr, datblygwyr
  []
 
 
-Underfull \hbox (badness 5578) in paragraph at lines 90--90
+Underfull \hbox (badness 5578) in paragraph at lines 102--102
 \TU/lmr/m/n/10 neu academyddion heb
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
 []\TU/lmr/m/n/10 Dr Geraint Palmer a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--90
+Underfull \hbox (badness 10000) in paragraph at lines 102--102
 []\TU/lmr/m/n/10 Amrhyw o adnoddau
  []
 
 
-Underfull \hbox (badness 3386) in paragraph at lines 90--90
+Underfull \hbox (badness 3386) in paragraph at lines 102--102
 \TU/lmr/m/n/10 Mathemategol yn dilyn
  []
 
-[5] [6] [7]
+[6] [7] [8
 
-LaTeX Warning: Citation `gwasanaethiaith' on page 8 undefined on input line 134
-.
-
-[8]) [9]
+]) [9]
 \openout2 = `chapters/Clystyru_k_modd.aux'.
 
  (chapters/Clystyru_k_modd.tex
@@ -1448,23 +1494,15 @@ File: ../img/ClystyrauCychwynol.jpeg Graphic file (type bmp)
 <../img/ClystyrauCychwynol.jpeg>
 File: ../img/Cam3.jpeg Graphic file (type bmp)
 <../img/Cam3.jpeg>
+ [11]
 File: ../img/Convergence4.jpeg Graphic file (type bmp)
 <../img/Convergence4.jpeg>
- [11]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 88.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 88.
-
-[12]
+ [12]
 File: ../img/Dull_Penelin.jpeg Graphic file (type bmp)
 <../img/Dull_Penelin.jpeg>
+ [13]
 File: ../img/Dendrogram.jpeg Graphic file (type bmp)
 <../img/Dendrogram.jpeg>
- [13]
 \openout4 = `main.pyg'.
 
  (_minted-main/default-pyg-prefix.pygstyle)
@@ -1488,11 +1526,11 @@ pygtex)
 pygtex
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 5.
-)
+) [14]
 \openout3 = `main.pyg'.
 
 
-(_minted-main/E9C8589C767BB805652A27EFCAC038B9D1B441A9AB0E232E9D4562FAA45AEAC6.
+(_minted-main/7FC7130FE389B8A1CE0009A8239B5530D1B441A9AB0E232E9D4562FAA45AEAC6.
 pygtex)
 \openout4 = `main.pyg'.
 
@@ -1501,64 +1539,68 @@ pygtex)
 pygtex)
 File: ../img/Data_yn_R.jpg Graphic file (type bmp)
 <../img/Data_yn_R.jpg>
- [14]
 \openout3 = `main.pyg'.
 
 
-(_minted-main/A30C43C7FC36BE0790F4F5F9067D925CD1B441A9AB0E232E9D4562FAA45AEAC6.
+(_minted-main/11524FCFABEC84659B4B693BCF07BD37D1B441A9AB0E232E9D4562FAA45AEAC6.
+pygtex)
+\openout4 = `main.pyg'.
+
+
+(_minted-main/65523A2697D2A1AC8FBE5A933D63C3CE19F985447EC54E8B82C17FA4B4D93AE9.
 pygtex)
 \openout3 = `main.pyg'.
 
 
-(_minted-main/F92489F7019E5CB2A68726DC2C9EE50AD1B441A9AB0E232E9D4562FAA45AEAC6.
+(_minted-main/FA11C14C629C3D2CBA94BF69D82462FDD1B441A9AB0E232E9D4562FAA45AEAC6.
 pygtex)
 File: ../img/ScatterplotR.jpeg Graphic file (type bmp)
 <../img/ScatterplotR.jpeg>
+ [15]
 \openout4 = `main.pyg'.
 
 
 (_minted-main/5E2A87C1BCE635CBA05DFE68FCF7D79F19F985447EC54E8B82C17FA4B4D93AE9.
-pygtex) [15]
-\openout3 = `main.pyg'.
-
-
-(_minted-main/0F1D1D6F722C892983149BF7D93566E0D1B441A9AB0E232E9D4562FAA45AEAC6.
 pygtex)
 \openout3 = `main.pyg'.
 
 
-(_minted-main/5E8FD2B98D2B8BD88F95DA98AEC04B21D1B441A9AB0E232E9D4562FAA45AEAC6.
+(_minted-main/88832A8B192D68DCE78C3141F439A02AD1B441A9AB0E232E9D4562FAA45AEAC6.
 pygtex)
 \openout3 = `main.pyg'.
 
 
-(_minted-main/E923CD62B743521548DF05E860663355D1B441A9AB0E232E9D4562FAA45AEAC6.
+(_minted-main/D4EF1E879AFEF338582F92E82674B429D1B441A9AB0E232E9D4562FAA45AEAC6.
+pygtex)
+\openout3 = `main.pyg'.
+
+
+(_minted-main/6BFC24AF02264AEDAB438713851C312BD1B441A9AB0E232E9D4562FAA45AEAC6.
 pygtex)
 File: ../img/Data3_yn_R.jpg Graphic file (type bmp)
 <../img/Data3_yn_R.jpg>
-\openout3 = `main.pyg'.
-
-
-(_minted-main/8F97496FB26725AAA4BEBEC61972AF47D1B441A9AB0E232E9D4562FAA45AEAC6.
-pygtex)
-File: ../img/3clwstwrR.jpeg Graphic file (type bmp)
-<../img/3clwstwrR.jpeg>
  [16]
 \openout3 = `main.pyg'.
 
 
-(_minted-main/6D00F6673A898F01E1019E83F5793617D1B441A9AB0E232E9D4562FAA45AEAC6.
+(_minted-main/C26BFF04FC171A469701F5F383E72ADFD1B441A9AB0E232E9D4562FAA45AEAC6.
+pygtex)
+File: ../img/3clwstwrR.jpeg Graphic file (type bmp)
+<../img/3clwstwrR.jpeg>
+\openout3 = `main.pyg'.
+
+ [17]
+(_minted-main/23536F33808B0F28F1D6E118B3A27F58D1B441A9AB0E232E9D4562FAA45AEAC6.
 pygtex)
 File: ../img/Data6_yn_R.jpg Graphic file (type bmp)
 <../img/Data6_yn_R.jpg>
 \openout3 = `main.pyg'.
 
 
-(_minted-main/3037382DFA1C2A0B5EFC23570BA33854D1B441A9AB0E232E9D4562FAA45AEAC6.
+(_minted-main/4D8B44868B3A7353BFBD71E5895B42CED1B441A9AB0E232E9D4562FAA45AEAC6.
 pygtex)
 File: ../img/6clwstwrR.jpeg Graphic file (type bmp)
 <../img/6clwstwrR.jpeg>
- [17]
 \openout4 = `main.pyg'.
 
 
@@ -1573,7 +1615,7 @@ pygtex)
 
 
 (_minted-main/005E23B0BA19E6818B5D0010090A5AFD4FBEEAFC55D0059826E664B9BBCF3721.
-pygtex)
+pygtex) [18]
 \openout3 = `main.pyg'.
 
 
@@ -1582,27 +1624,28 @@ pygtex)
 \openout3 = `main.pyg'.
 
 
-(_minted-main/DEAA0C4441F37CC39FEDC9180C299C7D4FBEEAFC55D0059826E664B9BBCF3721.
+(_minted-main/E17DFCFCF1DE8CD6CD6E764A9C2121324FBEEAFC55D0059826E664B9BBCF3721.
 pygtex)
 \openout4 = `main.pyg'.
 
 
-(_minted-main/A1AB6DD30A3E575F2DC6E7C5170E57DB19F985447EC54E8B82C17FA4B4D93AE9.
+(_minted-main/A1AB6DD30A3E575F2DC6E7C5170E57DB4FBEEAFC55D0059826E664B9BBCF3721.
 pygtex)
 \openout3 = `main.pyg'.
 
 
-(_minted-main/199065406915E6291E456A854E4434804FBEEAFC55D0059826E664B9BBCF3721.
+(_minted-main/C68306B504FB30D357731872BF0641D84FBEEAFC55D0059826E664B9BBCF3721.
 pygtex)
 File: ../img/tabl1.jpg Graphic file (type bmp)
 <../img/tabl1.jpg>
 \openout3 = `main.pyg'.
 
- [18]
-(_minted-main/E9894389E3CC4517928EDB60AA00F7534FBEEAFC55D0059826E664B9BBCF3721.
+
+(_minted-main/2BE8FBE5D67E4EB59E8DA272CA83DB454FBEEAFC55D0059826E664B9BBCF3721.
 pygtex)
 File: ../img/Scatterpython.jpeg Graphic file (type bmp)
 <../img/Scatterpython.jpeg>
+ [19]
 \openout3 = `main.pyg'.
 
 
@@ -1615,12 +1658,11 @@ pygtex)
 pygtex)
 File: ../img/tabl2.jpg Graphic file (type bmp)
 <../img/tabl2.jpg>
- [19]
 \openout3 = `main.pyg'.
 
 
-(_minted-main/452789828FEC412AD6A6E7024971F2904FBEEAFC55D0059826E664B9BBCF3721.
-pygtex)
+(_minted-main/2EE6183CB25044B27C06C70E7C2D44704FBEEAFC55D0059826E664B9BBCF3721.
+pygtex) [20]
 File: ../img/3clystwrpython.jpeg Graphic file (type bmp)
 <../img/3clystwrpython.jpeg>
 \openout3 = `main.pyg'.
@@ -1635,15 +1677,14 @@ pygtex)
 pygtex)
 File: ../img/tabl3.jpg Graphic file (type bmp)
 <../img/tabl3.jpg>
- [20]
 \openout3 = `main.pyg'.
 
-
-(_minted-main/8B4F5AE82C01062219B8C374C544E5494FBEEAFC55D0059826E664B9BBCF3721.
+ [21]
+(_minted-main/AC9D37CC727B3303845466740B9D308D4FBEEAFC55D0059826E664B9BBCF3721.
 pygtex)
 File: ../img/6clystwrpython.jpeg Graphic file (type bmp)
 <../img/6clystwrpython.jpeg>
-) [21]
+) [22]
 \openout2 = `chapters/Atchweliad_logistaidd.aux'.
 
  (chapters/Atchweliad_logistaidd.tex
@@ -1652,19 +1693,19 @@ File: ../img/Atchweliad_logistaidd.jpeg Graphic file (type bmp)
 <../img/Atchweliad_logistaidd.jpeg>
 File: ../img/atchweliad_logistaidd_gyda_pwyntiau.jpeg Graphic file (type bmp)
 <../img/atchweliad_logistaidd_gyda_pwyntiau.jpeg>
-[22
+[23
 
 
 
 ]
 File: ../img/cymharu_llinol.jpeg Graphic file (type bmp)
 <../img/cymharu_llinol.jpeg>
- [23]
+ [24]
 
-LaTeX Warning: Reference `eqn:gwrthrologit' on page 24 undefined on input line 
-49.
+LaTeX Warning: Citation `Logistic-regression' on page 25 undefined on input lin
+e 63.
 
-[24] [25]
+[25] [26]
 \openout4 = `main.pyg'.
 
 
@@ -1683,7 +1724,7 @@ pygtex)
 \openout3 = `main.pyg'.
 
 
-(_minted-main/750881924743EE546947CC1D30D3A254D1B441A9AB0E232E9D4562FAA45AEAC6.
+(_minted-main/7B210C39C5A71F7652ADA862FFD5189DD1B441A9AB0E232E9D4562FAA45AEAC6.
 pygtex)
 \openout3 = `main.pyg'.
 
@@ -1695,13 +1736,13 @@ File: ../img/data_diabetes_r.jpg Graphic file (type bmp)
 \openout3 = `main.pyg'.
 
 
-(_minted-main/4E93E82ABB074DD009435E5EBDCF2650D1B441A9AB0E232E9D4562FAA45AEAC6.
-pygtex)
+(_minted-main/7B4218BB14431C590582D66CE9044C47D1B441A9AB0E232E9D4562FAA45AEAC6.
+pygtex) [27]
 \openout3 = `main.pyg'.
 
 
-(_minted-main/C052010A8BC60C4CBF3239F8DAAFCC6CD1B441A9AB0E232E9D4562FAA45AEAC6.
-pygtex) [26]
+(_minted-main/224D70B7CC41F992253D07C561626F88D1B441A9AB0E232E9D4562FAA45AEAC6.
+pygtex)
 \openout4 = `main.pyg'.
 
 
@@ -1720,12 +1761,12 @@ pygtex)
 \openout3 = `main.pyg'.
 
 
-(_minted-main/B52EC11C569B5DCABDD5F82C9AE89D2FD1B441A9AB0E232E9D4562FAA45AEAC6.
+(_minted-main/A2DB75934D07AD59209F94D3F7726787D1B441A9AB0E232E9D4562FAA45AEAC6.
 pygtex)
 \openout3 = `main.pyg'.
 
 
-(_minted-main/75C25DF85BFFB964A98B6362E0A8AC63D1B441A9AB0E232E9D4562FAA45AEAC6.
+(_minted-main/2ED208B23D6961F11536DA1AA5C3B996D1B441A9AB0E232E9D4562FAA45AEAC6.
 pygtex)
 \openout4 = `main.pyg'.
 
@@ -1737,25 +1778,30 @@ pygtex)
 
 (_minted-main/F35D7EFE3EFB3E67AF82D59C734BF43719F985447EC54E8B82C17FA4B4D93AE9.
 pygtex)
+\openout4 = `main.pyg'.
+
+
+(_minted-main/60E473933578055D5B8681F1DDDB7F4019F985447EC54E8B82C17FA4B4D93AE9.
+pygtex)
 \openout3 = `main.pyg'.
 
 
 (_minted-main/4162D2DE616A1AB3F1D4EA9E704389E3D1B441A9AB0E232E9D4562FAA45AEAC6.
-pygtex)
+pygtex) [28]
 \openout3 = `main.pyg'.
 
 
 (_minted-main/E0C09D509B6D372EEC9A29139917182BD1B441A9AB0E232E9D4562FAA45AEAC6.
-pygtex) [27]
-\openout3 = `main.pyg'.
-
-
-(_minted-main/935F701953465F0367611C4EE1066C9BD1B441A9AB0E232E9D4562FAA45AEAC6.
 pygtex)
 \openout3 = `main.pyg'.
 
 
-(_minted-main/4BC45CC43335044DBFE5E8893A528E5ED1B441A9AB0E232E9D4562FAA45AEAC6.
+(_minted-main/74242AD70CD43235CE7F762669EAD3BCD1B441A9AB0E232E9D4562FAA45AEAC6.
+pygtex)
+\openout3 = `main.pyg'.
+
+
+(_minted-main/8038246629242095CA99DC9B0B632574D1B441A9AB0E232E9D4562FAA45AEAC6.
 pygtex)
 \openout4 = `main.pyg'.
 
@@ -1769,12 +1815,12 @@ pygtex)
 pygtex)
 \openout3 = `main.pyg'.
 
-
+ [29]
 (_minted-main/CF758321D48D53C1951A6339C46292E14FBEEAFC55D0059826E664B9BBCF3721.
 pygtex)
 \openout3 = `main.pyg'.
 
- [28]
+
 (_minted-main/3D2CC16144463F018A0D398F5DF1C0F54FBEEAFC55D0059826E664B9BBCF3721.
 pygtex)
 \openout3 = `main.pyg'.
@@ -1792,18 +1838,18 @@ pygtex)
 \openout3 = `main.pyg'.
 
 
-(_minted-main/B615963FB43A7DB710038CE0117909C54FBEEAFC55D0059826E664B9BBCF3721.
+(_minted-main/931CA396300B7FDEDF4234195BCC25D24FBEEAFC55D0059826E664B9BBCF3721.
 pygtex)
 \openout3 = `main.pyg'.
 
 
-(_minted-main/82DF8635378EB2421BFAA132BE1348D14FBEEAFC55D0059826E664B9BBCF3721.
+(_minted-main/D93802B62B6111A61CFC5736EC0530154FBEEAFC55D0059826E664B9BBCF3721.
 pygtex)
 \openout4 = `main.pyg'.
 
 
 (_minted-main/DB22EB6F271F4E4BE4BA5D01A0ADB69D4FBEEAFC55D0059826E664B9BBCF3721.
-pygtex)
+pygtex) [30]
 \openout3 = `main.pyg'.
 
 
@@ -1816,7 +1862,7 @@ pygtex)
 pygtex)
 \openout3 = `main.pyg'.
 
- [29]
+
 (_minted-main/495D98D03DA5A3DBE9F083AE31AA77B94FBEEAFC55D0059826E664B9BBCF3721.
 pygtex)
 \openout3 = `main.pyg'.
@@ -1833,12 +1879,131 @@ pygtex)
 
 
 (_minted-main/78C2AA0B2FFA3C535AB82B215F0ABEC54FBEEAFC55D0059826E664B9BBCF3721.
-pygtex)) [30]
+pygtex)) [31]
+\openout2 = `chapters/Dosbarthiad_naif_bayes.aux'.
+
+ (chapters/Dosbarthiad_naif_bayes.tex
+Pennod 4.
+[32
+
+
+
+] [33]
+\openout3 = `main.pyg'.
+
+
+(_minted-main/EDAB710CD2CEA08F4527FAE8CF6CA975D1B441A9AB0E232E9D4562FAA45AEAC6.
+pygtex)
+\openout3 = `main.pyg'.
+
+
+(_minted-main/807E04AD217795AFF091A9004A945DA9D1B441A9AB0E232E9D4562FAA45AEAC6.
+pygtex)
+File: ../img/data_dosbarthiad.jpg Graphic file (type bmp)
+<../img/data_dosbarthiad.jpg>
+\openout3 = `main.pyg'.
+
+
+(_minted-main/1EC1DE543933C73BABBF23035D90EBF9D1B441A9AB0E232E9D4562FAA45AEAC6.
+pygtex) [34]
+\openout3 = `main.pyg'.
+
+
+(_minted-main/1424596A336BED09640A0DEF9E0241FED1B441A9AB0E232E9D4562FAA45AEAC6.
+pygtex)
+\openout3 = `main.pyg'.
+
+
+(_minted-main/5D493F23988EC9DAC0AAF5E1C865721DD1B441A9AB0E232E9D4562FAA45AEAC6.
+pygtex)
+\openout3 = `main.pyg'.
+
+
+(_minted-main/AEA35DB0D4A6538100249D76716C9A49D1B441A9AB0E232E9D4562FAA45AEAC6.
+pygtex)
+\openout3 = `main.pyg'.
+
+ [35]
+(_minted-main/12D32DABC2E59C22D4A8D842898DA725D1B441A9AB0E232E9D4562FAA45AEAC6.
+pygtex)
+\openout3 = `main.pyg'.
+
+
+(_minted-main/A53438A7354E7FD2E37E2371C48BFC4AD1B441A9AB0E232E9D4562FAA45AEAC6.
+pygtex)
+\openout3 = `main.pyg'.
+
+
+(_minted-main/4B90DEF1FA0D5506D60DAE6F3BBB339BD1B441A9AB0E232E9D4562FAA45AEAC6.
+pygtex)
+\openout4 = `main.pyg'.
+
+
+(_minted-main/2F19884F14598D8DE5EFAE75E6D86A7C4FBEEAFC55D0059826E664B9BBCF3721.
+pygtex)
+\openout3 = `main.pyg'.
+
+
+(_minted-main/2E1446E873AF72C0AFA25BA8F5BECD0B4FBEEAFC55D0059826E664B9BBCF3721.
+pygtex)
+\openout4 = `main.pyg'.
+
+
+(_minted-main/199065406915E6291E456A854E4434804FBEEAFC55D0059826E664B9BBCF3721.
+pygtex)
+\openout3 = `main.pyg'.
+
+
+(_minted-main/27032F00B50D092058EB770FCF892E7D4FBEEAFC55D0059826E664B9BBCF3721.
+pygtex)
+File: ../img/data_dosbarthiad_python.jpg Graphic file (type bmp)
+<../img/data_dosbarthiad_python.jpg>
+ [36]
+\openout3 = `main.pyg'.
+
+
+(_minted-main/50A1B25EA8307EA172ADE6E690A08B804FBEEAFC55D0059826E664B9BBCF3721.
+pygtex)
+\openout3 = `main.pyg'.
+
+
+(_minted-main/5F74046EB417C6949C7E67649E47214D4FBEEAFC55D0059826E664B9BBCF3721.
+pygtex)
+\openout3 = `main.pyg'.
+
+
+(_minted-main/CCFD03C1C886F11752429A41886E285E4FBEEAFC55D0059826E664B9BBCF3721.
+pygtex)
+\openout3 = `main.pyg'.
+
+
+(_minted-main/B98521768B31DA940A917E09CCF6CA884FBEEAFC55D0059826E664B9BBCF3721.
+pygtex)
+\openout4 = `main.pyg'.
+
+
+(_minted-main/26F33C3F067B79FE7BA8A7276D33BF074FBEEAFC55D0059826E664B9BBCF3721.
+pygtex)
+\openout3 = `main.pyg'.
+
+
+(_minted-main/D8F3FA0D66E5A66AC5028429CF54104A4FBEEAFC55D0059826E664B9BBCF3721.
+pygtex)
+\openout3 = `main.pyg'.
+
+
+(_minted-main/C2DA223841B14A94DC7FBCB9EABB5F6C4FBEEAFC55D0059826E664B9BBCF3721.
+pygtex)
+\openout3 = `main.pyg'.
+
+
+(_minted-main/035049A02E7D1814F63FAA97DC8F65764FBEEAFC55D0059826E664B9BBCF3721.
+pygtex) [37]) [38]
 \openout2 = `chapters/Termau.aux'.
 
  (chapters/Termau.tex
-Pennod 4.
-) [31
+Pennod 5.
+) [39
 
 
 
@@ -1856,31 +2021,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--38
  []
 
 
-Underfull \hbox (badness 1533) in paragraph at lines 66--70
+Underfull \hbox (badness 10000) in paragraph at lines 61--64
+[]\TU/lmr/m/n/10 Cymwysiadau wahanol dysgu peirianyddol.  []$[][][][][] [] [] [
+] [][][] [] [][][][][][][] [] [][] [] [][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--69
+[]\TU/lmr/m/n/10 Gwybodaeth ar dosbarthiad naif bayes.  []$[][][][][] [] [] [] 
+[][][] [] [][][][][][][] [] [][] [] [][][][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--87
+[]\TU/lmr/m/n/10 Gwyddor data yn gad.  []$[][][][][] [] [] [] [][][] [] [][][] 
+[] [][] [] [][][][][][][][][][] [] [][][][] []
+ []
+
+[40
+
+
+]
+Underfull \hbox (badness 1533) in paragraph at lines 100--104
 []\TU/lmr/m/n/10 Technological action plan.  []$[][][][][] [] [] [] [][][] [] [
 ][][][][] [] [][][][][] [] [][][][][][][] [] [][][][][] [] [][][][][][][][][][]
 [][] [] [][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--81
+Underfull \hbox (badness 10000) in paragraph at lines 111--115
 []\TU/lmr/m/n/10 Videos ar sut i rhaglennu yn python.  []$[][][][][] [] [] [] [
 ][][] [] [][][][][][][] [] [][][] [] [][][][][][][][] [] [][][][] []
  []
 
-[32
-
-
-]) [33]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 47.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 47.
- (main.aux (frontcover.aux) (diolchadau.aux) (chapters/Cyflwyniad.aux) (chapter
-s/Clystyru_k_modd.aux) (chapters/Atchweliad_logistaidd.aux)
-(chapters/Termau.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 47.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 47.
+) [41]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
+ (main.aux (frontcover.aux) (diolchadau.aux) (chapters/Cyflwyniad.aux)
+(chapters/Clystyru_k_modd.aux) (chapters/Atchweliad_logistaidd.aux)
+(chapters/Dosbarthiad_naif_bayes.aux) (chapters/Termau.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 54.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 54.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: EEBE2052FCE663FB2983F6B16AE26460;1742.
+(rerunfilecheck)             Checksum: 655202679844BBC558DD573EDD686584;1354.
 
 
 LaTeX Warning: There were undefined references.
@@ -1889,12 +2072,12 @@ runsystem(del main.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 38598 strings out of 427232
- 741825 string characters out of 3141650
- 921996 words of memory out of 3000000
- 42347 multiletter control sequences out of 15000+200000
- 548444 words of font info for 102 fonts, out of 3000000 for 9000
+ 38881 strings out of 427232
+ 753702 string characters out of 3141650
+ 942913 words of memory out of 3000000
+ 42546 multiletter control sequences out of 15000+200000
+ 548452 words of font info for 103 fonts, out of 3000000 for 9000
  1348 hyphenation exceptions out of 8191
- 60i,12n,67p,1256b,2146s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,12n,67p,1112b,2146s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on main.pdf (34 pages).
+Output written on main.pdf (42 pages).

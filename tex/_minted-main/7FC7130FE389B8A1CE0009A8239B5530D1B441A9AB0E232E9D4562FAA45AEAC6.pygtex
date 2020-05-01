@@ -1,0 +1,4 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{o}{\PYGZgt{}} taldrapwysau \PYG{o}{\PYGZlt{}\PYGZhy{}} read.csv\PYG{p}{(}\PYG{l+s}{\PYGZdq{}taldra\PYGZhy{}pwysau.csv\PYGZdq{}}\PYG{p}{)}
+\PYG{o}{\PYGZgt{}} View\PYG{p}{(}taldrapwysau\PYG{p}{)}
+\end{Verbatim}

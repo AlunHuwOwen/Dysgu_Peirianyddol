@@ -22,6 +22,8 @@
 \usepackage[welsh]{babel}
 \usepackage{graphicx}
 \usepackage{verbatim}
+\usepackage{multicol}
+\setcounter{tocdepth}{1}
 
 \newtheorem{definition}{Definition}
 \newtheorem{theorem}{Theorem}
@@ -33,11 +35,16 @@
 
     \tableofcontents
     \listoffigures
+    \begingroup
+    \let\clearpage\relax
+    \listoftables
+    \endgroup
 
     % The actual content:
     \include{chapters/Cyflwyniad}
     \include{chapters/Clystyru_k_modd}
     \include{chapters/Atchweliad_logistaidd}
+    \include{chapters/Dosbarthiad_naif_bayes}
     \include{chapters/Termau}
 
 
