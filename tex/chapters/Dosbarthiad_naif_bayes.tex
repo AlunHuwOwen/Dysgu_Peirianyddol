@@ -100,7 +100,8 @@ Mae'r ffwythiant canlynol yn R yn cyfrifo'r tebygolrwydd amodol pryd rydym yn gw
 \begin{minted}[bgcolor=green!7]{r}
 > tebygolrwydd_amodol <- function(plaid, colofn, gwerth, data)
 + {
-+    rhifiadur <- sum(data[which(data[,"Plaid.Wleidyddol"]==plaid),names(data)[colofn]]==gwerth)+1 
++    rhifiadur <- sum(data[which(data[,"Plaid.Wleidyddol"]==plaid),
++                                names(data)[colofn]]==gwerth)+1 
 +    enwadur <- length(data[which(data[,"Plaid.Wleidyddol"]==plaid),names(data)[colofn]])
 +               +length(levels(etholiad[,colofn])))
 +    rhifiadur/enwadur
@@ -191,7 +192,8 @@ Byddwn yn creu ddau ffwythiant, un i'r ddau debygolrwydd sy'n cael ei chynnwys y
 
 \begin{minted}[bgcolor=cyan!7]{python}
 >>> def tebygolrwydd_amodol(plaid, colofn, gwerth, data):
-...     rhifiadur = len(data[(data["Plaid.Wleidyddol"]==plaid)&(data[colofn]==gwerth)]) + 1
+...     rhifiadur = len(data[(data["Plaid.Wleidyddol"]==plaid)&
+...                          (data[colofn]==gwerth)]) + 1
 ...     enwadur = len(data[data["Plaid.Wleidyddol"]==plaid])+len(data[colofn].unique())
 ...     return rhifiadur/enwadur
 \end{minted}

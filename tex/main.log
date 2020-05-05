@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2020.1.31)  1 MAY 2020 12:32
+This is XeTeX, Version 3.14159265-2.6-0.999991 (MiKTeX 2.9.7250 64-bit) (preloaded format=xelatex 2020.1.31)  5 MAY 2020 14:05
 entering extended mode
 **./main.tex
 (main.tex
@@ -1904,7 +1904,7 @@ File: ../img/data_dosbarthiad.jpg Graphic file (type bmp)
 \openout3 = `main.pyg'.
 
 
-(_minted-main/1EC1DE543933C73BABBF23035D90EBF9D1B441A9AB0E232E9D4562FAA45AEAC6.
+(_minted-main/7647232F07AB10C7DC1EBD1C634380AAD1B441A9AB0E232E9D4562FAA45AEAC6.
 pygtex) [34]
 \openout3 = `main.pyg'.
 
@@ -1920,10 +1920,10 @@ pygtex)
 
 
 (_minted-main/AEA35DB0D4A6538100249D76716C9A49D1B441A9AB0E232E9D4562FAA45AEAC6.
-pygtex)
+pygtex) [35]
 \openout3 = `main.pyg'.
 
- [35]
+
 (_minted-main/12D32DABC2E59C22D4A8D842898DA725D1B441A9AB0E232E9D4562FAA45AEAC6.
 pygtex)
 \openout3 = `main.pyg'.
@@ -1962,7 +1962,7 @@ File: ../img/data_dosbarthiad_python.jpg Graphic file (type bmp)
 \openout3 = `main.pyg'.
 
 
-(_minted-main/50A1B25EA8307EA172ADE6E690A08B804FBEEAFC55D0059826E664B9BBCF3721.
+(_minted-main/75FB5DE9A57674860FEE2C9DCE7AC8744FBEEAFC55D0059826E664B9BBCF3721.
 pygtex)
 \openout3 = `main.pyg'.
 
@@ -1993,12 +1993,12 @@ pygtex)
 
 
 (_minted-main/C2DA223841B14A94DC7FBCB9EABB5F6C4FBEEAFC55D0059826E664B9BBCF3721.
-pygtex)
+pygtex) [37]
 \openout3 = `main.pyg'.
 
 
 (_minted-main/035049A02E7D1814F63FAA97DC8F65764FBEEAFC55D0059826E664B9BBCF3721.
-pygtex) [37]) [38]
+pygtex)) [38]
 \openout2 = `chapters/Termau.aux'.
 
  (chapters/Termau.tex
